@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Quoridge
+{
+    public enum Categories
+    {
+        Alcohol,
+        Baking,
+        Beverage,
+        Dairy,
+        Fish,
+        Fruit,
+        Grain,
+        Legume,
+        Meat,
+        Nut,
+        Oil,
+        Sauce,
+        Seafood,
+        Seasoning,
+        Spice,
+        Soup,
+        Sweetener,
+        Vegatable,
+    }
+    public class Ingredient
+    {
+        public int IngredientID { get; set; }
+        public string Name { get; set; }
+        public string [] Tag { get; set; }
+        public Categories Category { get; set; }
+        public string MeasureUnit { get; set; }
+        public double Quantity { get; set; }
+        public DateTime ExpireDate { get; set; }
+        public int LastBeforeExpire { get; set; }
+
+        //public Ingredient()
+        //{
+            
+        //}
+    }
+}

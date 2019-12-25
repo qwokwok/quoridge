@@ -1,0 +1,14 @@
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.deps.json
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.dll
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\ref\Quoridge.dll
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.pdb
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.csprojAssemblyReference.cache
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.AssemblyInfoInputs.cache
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.AssemblyInfo.cs
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.dll
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\ref\Quoridge.dll
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.pdb
+C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\XamlC.stamp
