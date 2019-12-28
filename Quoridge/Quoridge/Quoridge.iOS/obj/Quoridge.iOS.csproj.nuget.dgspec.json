@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj": {}
+    "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj": {
+    "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
         "projectName": "Quoridge.iOS",
-        "projectPath": "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
+        "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
         "packagesPath": "C:\\Users\\Quoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge.iOS\\obj\\",
+        "outputPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
-                "projectPath": "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj"
+              "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
+                "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj"
               }
             }
           }
@@ -46,13 +46,21 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[17.4.0.40, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.4.0.40, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.4.0.991265, )"
             }
           }
         }
@@ -69,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
+    "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
+        "projectUniqueName": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
         "projectName": "Quoridge",
-        "projectPath": "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
+        "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
         "packagesPath": "C:\\Users\\Quoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Quoc\\Desktop\\Quoridge\\Quoridge\\Quoridge\\obj\\",
+        "outputPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -118,13 +126,21 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[17.4.0.40, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.4.0.40, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.4.0.991265, )"
             }
           },
           "imports": [

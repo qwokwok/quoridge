@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="My Storage"
+             x:Class="Quoridge.Storage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="moreButton.png"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+
+    <AbsoluteLayout>
+        <StackLayout>
+            <SearchBar 
+                Placeholder="Ingredients"
+                CancelButtonColor="White"
+                PlaceholderColor="LightGray"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                HorizontalTextAlignment="Center"/>
+            <syncfusion:SfListView x:Name="storageListView" ItemsSource="{Binding Ingredient}" ItemSize="75" SelectedItem="Click" SelectionMode="Single" SelectionGesture="Tap" SelectionBackgroundColor="Transparent">
+                <syncfusion:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.9*" />
+                                <RowDefinition Height="0.6*" />
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding Name}" FontAttributes="Bold" TextColor="White" FontSize="21" />
+                            <Label Grid.Row="1" Text="{Binding Category}" TextColor="White" FontSize="15"/>
+                        </Grid>
+                    </DataTemplate>
+                </syncfusion:SfListView.ItemTemplate>
+            </syncfusion:SfListView>
+
+        </StackLayout>
+        <Button
+            x:Name="AddButton"
+            Clicked="AddButton_Clicked"
+            Image="add.png" 
+            WidthRequest="56" 
+            HeightRequest="56"
+            CornerRadius="28"
+            HorizontalOptions="End" 
+            VerticalOptions="End"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="1.0,1.0,-1,-1"
+            Margin="10" >
+        </Button>
+    </AbsoluteLayout>
+
+</ContentPage>

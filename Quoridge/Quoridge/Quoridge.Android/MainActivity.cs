@@ -14,6 +14,8 @@ namespace Quoridge.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("@31372e342e30hkwrVDaZ5D5eqT0LYE9AfcF3LBqt64+2kOkwZlSUYns=");
+
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
@@ -22,6 +24,15 @@ namespace Quoridge.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
+        }
+
+        public override void OnBackPressed()
+        {
+            //Back Press is disabled if there is no fragment in the back stack of fragment transaction
+            if (this.SupportFragmentManager.BackStackEntryCount > 0)
+            {
+                base.OnBackPressed();
+            }
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

@@ -5,10 +5,45 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:Quoridge"
              mc:Ignorable="d"
-             x:Class="Quoridge.AppShell">
+             BackgroundColor="#764B8E"
+             x:Class="Quoridge.AppShell"
+             FlyoutBackgroundColor="#9775AA">
 
-    <FlyoutItem>
-        <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
-    </FlyoutItem>
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <ContentView BackgroundColor="#764B8E" HeightRequest="150" >
+                <Image Source="kawaii.png"></Image>
+            </ContentView>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <StackLayout Orientation="Horizontal"
+                         Padding="15, 5, 0, 0"
+                         HeightRequest="50">
+                <Image Source="{Binding Icon}"
+                       HeightRequest="30"
+                       WidthRequest="30"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"/>
+                <Label Text="{Binding Title}"
+                   TextColor="White"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </DataTemplate>
+    </Shell.ItemTemplate>
     
+    <FlyoutItem Title="My Storage"
+                Icon="storageIcon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Storage}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Ingredients"
+                Icon="ingredientIcon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Library}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Recipes"
+                Icon="recipeIcon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Recipe}"/>
+    </FlyoutItem>
 </Shell>

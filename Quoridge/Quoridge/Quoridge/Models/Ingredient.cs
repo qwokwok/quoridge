@@ -25,6 +25,13 @@ namespace Quoridge
         Sweetener,
         Vegatable,
     }
+    public enum Where
+    {
+        Frozen,
+        Refrigerator,
+        RoomTempature
+    }
+
     public class Ingredient
     {
         public int IngredientID { get; set; }
@@ -35,10 +42,11 @@ namespace Quoridge
         public double Quantity { get; set; }
         public DateTime ExpireDate { get; set; }
         public int LastBeforeExpire { get; set; }
+        public Where Where { get; set; }
 
         //public Ingredient()
         //{
-            
+
         //}
     }
 }

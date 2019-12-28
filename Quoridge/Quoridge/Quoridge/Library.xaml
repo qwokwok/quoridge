@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Ingredients"
+             BackgroundColor="#9775AA"
+             x:Class="Quoridge.Library">
+
+    <syncfusion:SfListView x:Name="ingredientListView" 
+                           AllowSwiping="True"
+                           ItemsSource="{Binding Ingredient}" 
+                           ItemSize="75" SelectedItem="Click" 
+                           SelectionMode="Single" 
+                           SelectionGesture="Tap" 
+                           SelectionBackgroundColor="Transparent"
+                           IsScrollBarVisible="False">
+        <syncfusion:SfListView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.9*" />
+                        <RowDefinition Height="0.6*" />
+                    </Grid.RowDefinitions>
+                    <Label Text="{Binding Name}" FontAttributes="Bold" TextColor="White" FontSize="21" />
+                    <Label Grid.Row="1" Text="{Binding Category}" TextColor="White" FontSize="15"/>
+                </Grid>
+            </DataTemplate>
+        </syncfusion:SfListView.ItemTemplate>
+
+        <syncfusion:SfListView.LeftSwipeTemplate>
+            <DataTemplate x:Name="LeftSwipeTemplate">
+                <Grid>
+                    <Grid BackgroundColor="#009EDA" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                        <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Grid.Column="0"
+                    Grid.Row="0"
+                    BackgroundColor="Transparent"
+                    HeightRequest="35"
+                    WidthRequest="35"
+                    Source="moreButton.png" />
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </DataTemplate>
+        </syncfusion:SfListView.LeftSwipeTemplate>
+    </syncfusion:SfListView>
+</ContentPage>
