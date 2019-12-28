@@ -12,10 +12,10 @@
     <syncfusion:SfListView x:Name="ingredientListView" 
                            AllowSwiping="True"
                            ItemsSource="{Binding Ingredient}" 
-                           ItemSize="75" SelectedItem="Click" 
+                           ItemSize="75"
                            SelectionMode="Single" 
                            SelectionGesture="Tap" 
-                           SelectionBackgroundColor="Transparent"
+                           SelectionBackgroundColor="Aqua"
                            IsScrollBarVisible="False">
         <syncfusion:SfListView.ItemTemplate>
             <DataTemplate>

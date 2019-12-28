@@ -8,7 +8,6 @@ namespace Quoridge
     public partial class App : Application
     {
         public static List<Ingredient> ingredients = new List<Ingredient>();
-        public static List<Ingredient> storage = new List<Ingredient>();
         public App()
         {
             Data.UniversalFood();

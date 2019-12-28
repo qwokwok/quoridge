@@ -13,17 +13,12 @@ namespace Quoridge
     [DesignTimeVisible(false)]
     public partial class Storage : ContentPage
     {
+        public static List<Ingredient> storage = new List<Ingredient>();
         public Storage()
         {
             InitializeComponent();
-            BackgroundColor = Color.FromRgb(151, 117, 170);
-            storageListView.ItemsSource = App.storage;
+            storageListView.ItemsSource = storage;
             storageListView.ItemTapped += JView_ItemTapped;
-
-            //jView.ItemSelected += (sender, e) =>
-            //{
-            //    ((ListView)sender).SelectedItem = null;
-            //};     
         }
 
         private void JView_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
