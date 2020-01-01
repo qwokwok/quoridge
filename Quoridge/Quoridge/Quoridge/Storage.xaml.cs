@@ -17,11 +17,12 @@ namespace Quoridge
         public Storage()
         {
             InitializeComponent();
+            
             storageListView.ItemsSource = storage;
-            storageListView.ItemTapped += JView_ItemTapped;
+            storageListView.ItemTapped += StorageListView_ItemTapped;
         }
 
-        private void JView_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
+        private void StorageListView_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
         {
             throw new NotImplementedException();
         }
@@ -29,7 +30,7 @@ namespace Quoridge
         private async void AddButton_Clicked(object sender, EventArgs e)
         {
             var libraryPage = new Library();
-            Shell.SetTabBarIsVisible(libraryPage, false);
+            Shell.SetTabBarIsVisible(libraryPage, true);
             await Shell.Current.Navigation.PushAsync(libraryPage, true);
         }
     }

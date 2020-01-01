@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:Quoridge"
              mc:Ignorable="d"
-             BackgroundColor="#764B8E"
+             BackgroundColor="#9775AA"
              x:Class="Quoridge.AppShell"
              FlyoutBackgroundColor="#9775AA">
 
@@ -36,7 +36,7 @@
     
     <FlyoutItem Title="My Storage"
                 Icon="storageIcon.png">
-        <ShellContent ContentTemplate="{DataTemplate local:Storage}"/>
+        <ShellContent ContentTemplate="{DataTemplate local:PreStorage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Ingredients"
                 Icon="ingredientIcon.png">

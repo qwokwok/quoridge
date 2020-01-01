@@ -13,6 +13,8 @@ public class MonoPackageManager_Resources {
 		"Syncfusion.Licensing.dll",
 		"Syncfusion.SfListView.XForms.Android.dll",
 		"Syncfusion.SfListView.XForms.dll",
+		"Syncfusion.SfPopupLayout.XForms.Android.dll",
+		"Syncfusion.SfPopupLayout.XForms.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

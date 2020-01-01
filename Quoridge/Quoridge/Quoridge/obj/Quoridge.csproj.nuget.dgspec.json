@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {}
+    "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
+    "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
+        "projectUniqueName": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
         "projectName": "Quoridge",
-        "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
-        "packagesPath": "C:\\Users\\Quoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\obj\\",
+        "projectPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
+        "packagesPath": "C:\\Users\\peace\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Quoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\peace\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -58,6 +58,10 @@
               "version": "[17.4.0.40, )"
             },
             "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.4.0.40, )"
+            },
+            "Syncfusion.Xamarin.SfPopupLayout": {
               "target": "Package",
               "version": "[17.4.0.40, )"
             },

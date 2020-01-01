@@ -43,6 +43,8 @@ namespace Quoridge
         public DateTime ExpireDate { get; set; }
         public int LastBeforeExpire { get; set; }
         public Where Where { get; set; }
+        public string Image { get; set; }
+        public string Description { get; set; }
 
         //public Ingredient()
         //{

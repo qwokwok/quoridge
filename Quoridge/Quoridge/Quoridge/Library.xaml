@@ -6,45 +6,74 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              Title="Ingredients"
-             BackgroundColor="#9775AA"
+             BackgroundImageSource="test.png"
              x:Class="Quoridge.Library">
 
-    <syncfusion:SfListView x:Name="ingredientListView" 
+    <StackLayout>
+        <SearchBar
+                x:Name="searchBar"
+                Placeholder="Enter an Ingredient"
+                CancelButtonColor="White"
+                PlaceholderColor="LightGray"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                HorizontalTextAlignment="Center"/>
+
+        <syncfusion:SfListView x:Name="ingredientListView" 
                            AllowSwiping="True"
                            ItemsSource="{Binding Ingredient}" 
-                           ItemSize="75"
+                           ItemSize="110"
                            SelectionMode="Single" 
                            SelectionGesture="Tap" 
-                           SelectionBackgroundColor="Aqua"
-                           IsScrollBarVisible="False">
-        <syncfusion:SfListView.ItemTemplate>
-            <DataTemplate>
-                <Grid Padding="10">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="0.9*" />
-                        <RowDefinition Height="0.6*" />
-                    </Grid.RowDefinitions>
-                    <Label Text="{Binding Name}" FontAttributes="Bold" TextColor="White" FontSize="21" />
-                    <Label Grid.Row="1" Text="{Binding Category}" TextColor="White" FontSize="15"/>
-                </Grid>
-            </DataTemplate>
-        </syncfusion:SfListView.ItemTemplate>
+                           ItemSpacing="10,1,10,9"
+                           SelectionBackgroundColor="Transparent">
+            <syncfusion:SfListView.ItemTemplate>
+                <DataTemplate>
 
-        <syncfusion:SfListView.LeftSwipeTemplate>
-            <DataTemplate x:Name="LeftSwipeTemplate">
-                <Grid>
-                    <Grid BackgroundColor="#009EDA" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
-                        <Grid VerticalOptions="Center" HorizontalOptions="Center">
-                            <Image Grid.Column="0"
+                    <ViewCell>
+                        <Frame x:Name="frame" CornerRadius="55">
+                            <Grid x:Name="grid">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="80" />
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Row="0" Grid.Column="0" HeightRequest="70" WidthRequest="70" Source="{Binding Image}" VerticalOptions="Center" HorizontalOptions="Start"/>
+                                <Grid Grid.Row="0" Grid.Column="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="19" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Label Grid.Row="0" FontAttributes="Bold" LineBreakMode="NoWrap" FontSize="15" TextColor="#764B8E" Text="{Binding Name}" WidthRequest="150"/>
+                                    <Label Grid.Row="1" TextColor="Gray" LineBreakMode="NoWrap" FontSize="11" Text="{Binding Description}" VerticalOptions="Start" MaxLines="4"/>
+                                </Grid>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+
+                </DataTemplate>
+                
+            </syncfusion:SfListView.ItemTemplate>
+
+            <syncfusion:SfListView.LeftSwipeTemplate>
+                <DataTemplate x:Name="LeftSwipeTemplate">
+                    <Grid>
+                        <Grid BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                            <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                <Image Grid.Column="0"
                     Grid.Row="0"
                     BackgroundColor="Transparent"
                     HeightRequest="35"
                     WidthRequest="35"
                     Source="moreButton.png" />
+                            </Grid>
                         </Grid>
                     </Grid>
-                </Grid>
-            </DataTemplate>
-        </syncfusion:SfListView.LeftSwipeTemplate>
-    </syncfusion:SfListView>
+                </DataTemplate>
+            </syncfusion:SfListView.LeftSwipeTemplate>
+        </syncfusion:SfListView>
+    </StackLayout>
+    
 </ContentPage>

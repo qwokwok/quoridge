@@ -14,10 +14,14 @@ namespace Quoridge
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AppShell : Shell
     {
+        public static Storage storagePage;
         public AppShell()
         {       
             InitializeComponent();
 
+            storagePage = new Storage();
+           
+           
 
             //Application.Current.Properties["ID"] = "started";
 

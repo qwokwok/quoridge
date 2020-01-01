@@ -70,6 +70,21 @@
           "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfPopupLayout/17.4.0.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.40",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -224,6 +239,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "17.4.0.40",
           "Syncfusion.Xamarin.SfListView": "17.4.0.40",
+          "Syncfusion.Xamarin.SfPopupLayout": "17.4.0.40",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -304,6 +320,21 @@
           "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfPopupLayout/17.4.0.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.40",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -458,6 +489,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "17.4.0.40",
           "Syncfusion.Xamarin.SfListView": "17.4.0.40",
+          "Syncfusion.Xamarin.SfPopupLayout": "17.4.0.40",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -538,6 +570,21 @@
           "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfPopupLayout/17.4.0.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.40",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -692,6 +739,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "17.4.0.40",
           "Syncfusion.Xamarin.SfListView": "17.4.0.40",
+          "Syncfusion.Xamarin.SfPopupLayout": "17.4.0.40",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -772,6 +820,21 @@
           "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfPopupLayout/17.4.0.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.40",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -926,6 +989,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "17.4.0.40",
           "Syncfusion.Xamarin.SfListView": "17.4.0.40",
+          "Syncfusion.Xamarin.SfPopupLayout": "17.4.0.40",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -1097,6 +1161,39 @@
         "lib/uap10.0/Syncfusion.SfListView.XForms.xml",
         "syncfusion.xamarin.sflistview.17.4.0.40.nupkg.sha512",
         "syncfusion.xamarin.sflistview.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfPopupLayout/17.4.0.40": {
+      "sha512": "aW/ue4/gfCbqNxGsQJsbyKcpBkTkWhQhV4JCnf3SP96DEwioxf54n6Wg1WRPhrQM9xmiqMJcgp+/pN5bQQq92w==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfpopuplayout/17.4.0.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Properties/Syncfusion.SfPopupLayout.XForms.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_dark_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_light_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_uwp_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_dark_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_light_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_uwp_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.xml",
+        "syncfusion.xamarin.sfpopuplayout.17.4.0.40.nupkg.sha512",
+        "syncfusion.xamarin.sfpopuplayout.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -1460,29 +1557,30 @@
       "Quoridge >= 1.0.0",
       "Syncfusion.Licensing >= 17.4.0.40",
       "Syncfusion.Xamarin.SfListView >= 17.4.0.40",
+      "Syncfusion.Xamarin.SfPopupLayout >= 17.4.0.40",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.4.0.991265"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Quoc\\.nuget\\packages\\": {},
+    "C:\\Users\\peace\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
       "projectName": "Quoridge.iOS",
-      "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
-      "packagesPath": "C:\\Users\\Quoc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\obj\\",
+      "projectPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
+      "packagesPath": "C:\\Users\\peace\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Quoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\peace\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1496,8 +1594,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
-              "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj"
+            "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
+              "projectPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj"
             }
           }
         }
@@ -1515,6 +1613,10 @@
             "version": "[17.4.0.40, )"
           },
           "Syncfusion.Xamarin.SfListView": {
+            "target": "Package",
+            "version": "[17.4.0.40, )"
+          },
+          "Syncfusion.Xamarin.SfPopupLayout": {
             "target": "Package",
             "version": "[17.4.0.40, )"
           },
