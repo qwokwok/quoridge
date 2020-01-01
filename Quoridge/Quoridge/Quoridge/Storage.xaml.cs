@@ -19,7 +19,7 @@ namespace Quoridge
             InitializeComponent();
             
             storageListView.ItemsSource = storage;
-            storageListView.ItemTapped += StorageListView_ItemTapped;
+            //storageListView.ItemTapped += StorageListView_ItemTapped;
         }
 
         private void StorageListView_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)

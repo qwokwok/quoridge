@@ -55,15 +55,9 @@ namespace Quoridge
 
         private void IngredientListView_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
         {
-            //var item = ingredientListView.SelectedItem;
-            //App.storage.Add(item as Ingredient);
-            Storage.storage.Add(new Ingredient()
-            {
-                IngredientID = 3,
-                Name = "Brown Egg",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator
-            });
+            Ingredient ingredient = (Ingredient)e.ItemData;
+
+            Storage.storage.Add(ingredient);
 
             Navigation.RemovePage(AppShell.storagePage);
             AppShell.storagePage = new Storage();
