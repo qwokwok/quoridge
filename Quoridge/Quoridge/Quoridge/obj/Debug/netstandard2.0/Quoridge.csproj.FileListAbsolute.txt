@@ -12,22 +12,6 @@ C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quorid
 C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\ref\Quoridge.dll
 C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.pdb
 C:\Users\Quoc\Desktop\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.deps.json
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.dll
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\ref\Quoridge.dll
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.pdb
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.csprojAssemblyReference.cache
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Library.xaml.g.cs
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.AssemblyInfoInputs.cache
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.AssemblyInfo.cs
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.dll
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\ref\Quoridge.dll
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.pdb
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Storage.xaml.g.cs
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Recipe.xaml.g.cs
 C:\Users\peace\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.deps.json
 C:\Users\peace\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.dll
 C:\Users\peace\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\ref\Quoridge.dll
@@ -45,3 +29,22 @@ C:\Users\peace\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Deb
 C:\Users\peace\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.pdb
 C:\Users\peace\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\PreStorage.xaml.g.cs
 C:\Users\peace\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.deps.json
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.dll
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\ref\Quoridge.dll
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.pdb
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.csprojAssemblyReference.cache
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Library.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\PreStorage.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Recipe.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Setting.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Shopping.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Storage.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.AssemblyInfoInputs.cache
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.AssemblyInfo.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.dll
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\ref\Quoridge.dll
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.pdb

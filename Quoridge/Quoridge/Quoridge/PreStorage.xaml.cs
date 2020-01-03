@@ -15,7 +15,15 @@ namespace Quoridge
         public PreStorage()
         {
             InitializeComponent();
-            Navigation.PushAsync(AppShell.storagePage, true);
+            storageButton.Clicked += StorageButton_Clicked;
+            countLabel.Text = "Number of storages: " + AppShell.storage.Count.ToString();
+        }
+
+        private async void StorageButton_Clicked(object sender, EventArgs e)
+        {
+            IsEnabled = false;
+            await Navigation.PushAsync(AppShell.storagePage, true);
+            IsEnabled = true;
         }
     }
 }

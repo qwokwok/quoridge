@@ -5,8 +5,10 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="Quoridge.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Quoridge" android:theme="@style/MainTheme" android:name="crc64ee5bf09f2102bd00.MainActivity">
+  <application android:label="Quoridge.Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="LoginActivity" android:theme="@style/LoginTheme" android:name="crc64ee5bf09f2102bd00.LoginActivity" />
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Quoridge" android:theme="@style/MainTheme" android:name="crc64ee5bf09f2102bd00.MainActivity" />
+    <activity android:label="SplashActivity" android:theme="@style/MyTheme" android:name="crc64ee5bf09f2102bd00.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

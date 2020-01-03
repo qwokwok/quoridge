@@ -28,22 +28,31 @@
                        HorizontalOptions="Start"
                        VerticalOptions="Center"/>
                 <Label Text="{Binding Title}"
-                   TextColor="White"
+                       TextColor="White"
                        VerticalOptions="Center"/>
             </StackLayout>
         </DataTemplate>
     </Shell.ItemTemplate>
     
-    <FlyoutItem Title="My Storage"
+    <FlyoutItem x:Name="flyone"
+                Title="My Storage"
                 Icon="storageIcon.png">
         <ShellContent ContentTemplate="{DataTemplate local:PreStorage}"/>
     </FlyoutItem>
+    <FlyoutItem Title="Shopping"
+                Icon="shoppingIcon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Shopping}"/>
+    </FlyoutItem>
     <FlyoutItem Title="Ingredients"
                 Icon="ingredientIcon.png">
-        <ShellContent ContentTemplate="{DataTemplate local:Library}"/>
+        <ShellContent x:Name="ingredientTemplate" ContentTemplate="{DataTemplate local:Library}"/>
     </FlyoutItem>
     <FlyoutItem Title="Recipes"
                 Icon="recipeIcon.png">
         <ShellContent ContentTemplate="{DataTemplate local:Recipe}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Setting"
+                Icon="settingIcon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Setting}"/>
     </FlyoutItem>
 </Shell>

@@ -14,7 +14,7 @@ namespace Quoridge
                 Name = "Salmon",
                 Category = Categories.Fish,
                 Where = Where.Frozen,
-                Image = "egg.png",
+                Image = "NotDone.png",
                 Description = ""
             });
 
@@ -34,7 +34,7 @@ namespace Quoridge
                 Name = "Brown Egg",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "egg.png",
+                Image = "NotDone.png",
                 Description = ""
             });
 
@@ -44,7 +44,7 @@ namespace Quoridge
                 Name = "Butter",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "egg.png",
+                Image = "NotDone.png",
                 Description = ""
             });
 
@@ -54,7 +54,7 @@ namespace Quoridge
                 Name = "Milk",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "egg.png",
+                Image = "NotDone.png",
                 Description = ""
             });
 
@@ -64,7 +64,7 @@ namespace Quoridge
                 Name = "Parmesan",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "egg.png",
+                Image = "NotDone.png",
                 Description = ""
             });
 
@@ -74,7 +74,7 @@ namespace Quoridge
                 Name = "Cheddar",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "egg.png",
+                Image = "NotDone.png",
                 Description = ""
             });
 
@@ -84,7 +84,7 @@ namespace Quoridge
                 Name = "American Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "egg.png",
+                Image = "NotDone.png",
                 Description = ""
             });
 
@@ -94,7 +94,7 @@ namespace Quoridge
                 Name = "Sour Cream",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "egg.png",
+                Image = "NotDone.png",
                 Description = ""
             });
 
@@ -104,7 +104,7 @@ namespace Quoridge
                 Name = "Cream Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "egg.png",
+                Image = "NotDone.png",
                 Description = ""
             });
         }

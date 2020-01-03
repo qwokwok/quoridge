@@ -23,6 +23,7 @@
                 TextColor="White"
                 BackgroundColor="Transparent"
                 HorizontalTextAlignment="Center"/>
+            
             <syncfusion:SfListView x:Name="storageListView" ItemsSource="{Binding Ingredient}" ItemSize="75" SelectedItem="Click" SelectionMode="Single" SelectionGesture="Tap" SelectionBackgroundColor="Transparent">
                 <syncfusion:SfListView.ItemTemplate>
                     <DataTemplate>

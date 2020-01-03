@@ -2218,24 +2218,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\peace\\.nuget\\packages\\": {},
+    "C:\\Users\\Quoc\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.Android\\Quoridge.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.Android\\Quoridge.Android.csproj",
       "projectName": "Quoridge.Android",
-      "projectPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.Android\\Quoridge.Android.csproj",
-      "packagesPath": "C:\\Users\\peace\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.Android\\obj\\",
+      "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.Android\\Quoridge.Android.csproj",
+      "packagesPath": "C:\\Users\\Quoc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\peace\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Quoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2249,8 +2249,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
-              "projectPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj"
+            "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
+              "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj"
             }
           }
         }

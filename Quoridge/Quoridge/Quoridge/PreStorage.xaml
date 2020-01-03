@@ -4,5 +4,16 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             BackgroundImageSource="test.png"
              x:Class="Quoridge.PreStorage">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="storageButton" Text="Storage List"/>
+            <Label x:Name="countLabel"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+    
 </ContentPage>

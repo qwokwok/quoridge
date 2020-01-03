@@ -1,6 +1,12 @@
+Quoridge.Droid.LoginActivity, Quoridge.Android;crc64ee5bf09f2102bd00.LoginActivity
+Quoridge.Droid.LoginActivity;crc64ee5bf09f2102bd00.LoginActivity
+quoridge.droid.LoginActivity;crc64ee5bf09f2102bd00.LoginActivity
 Quoridge.Droid.MainActivity, Quoridge.Android;crc64ee5bf09f2102bd00.MainActivity
 Quoridge.Droid.MainActivity;crc64ee5bf09f2102bd00.MainActivity
 quoridge.droid.MainActivity;crc64ee5bf09f2102bd00.MainActivity
+Quoridge.Droid.SplashActivity, Quoridge.Android;crc64ee5bf09f2102bd00.SplashActivity
+Quoridge.Droid.SplashActivity;crc64ee5bf09f2102bd00.SplashActivity
+quoridge.droid.SplashActivity;crc64ee5bf09f2102bd00.SplashActivity
 Syncfusion.XForms.Android.Graphics.SfGradientViewRenderer, Syncfusion.Core.XForms.Android;crc640879981a986d658b.SfGradientViewRenderer
 Syncfusion.XForms.Android.Graphics.SfGradientViewRenderer;crc640879981a986d658b.SfGradientViewRenderer
 syncfusion.xforms.android.graphics.SfGradientViewRenderer;crc640879981a986d658b.SfGradientViewRenderer

@@ -10,6 +10,7 @@
              x:Class="Quoridge.Library">
 
     <StackLayout>
+        
         <SearchBar
                 x:Name="searchBar"
                 Placeholder="Enter an Ingredient"
@@ -31,30 +32,14 @@
                 <DataTemplate>
 
                     <ViewCell>
-                        <Frame x:Name="frame" CornerRadius="55">
-                            <Grid x:Name="grid">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="80" />
-                                    <ColumnDefinition Width="Auto"/>
-                                </Grid.ColumnDefinitions>
-                                <Image Grid.Row="0" Grid.Column="0" HeightRequest="70" WidthRequest="70" Source="{Binding Image}" VerticalOptions="Center" HorizontalOptions="Start"/>
-                                <Grid Grid.Row="0" Grid.Column="1">
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="19" />
-                                        <RowDefinition Height="Auto" />
-                                    </Grid.RowDefinitions>
-                                    <Label Grid.Row="0" FontAttributes="Bold" LineBreakMode="NoWrap" FontSize="15" TextColor="#764B8E" Text="{Binding Name}" WidthRequest="150"/>
-                                    <Label Grid.Row="1" TextColor="Gray" LineBreakMode="NoWrap" FontSize="11" Text="{Binding Description}" VerticalOptions="Start" MaxLines="4"/>
-                                </Grid>
-                            </Grid>
+                        <Frame x:Name="frame" CornerRadius="55" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="0" Margin="0">
+                            <AbsoluteLayout BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill">
+                                <Image Source="{Binding Image}"></Image>
+                            </AbsoluteLayout>
                         </Frame>
                     </ViewCell>
 
                 </DataTemplate>
-                
             </syncfusion:SfListView.ItemTemplate>
 
             <syncfusion:SfListView.LeftSwipeTemplate>
@@ -67,13 +52,36 @@
                     BackgroundColor="Transparent"
                     HeightRequest="35"
                     WidthRequest="35"
-                    Source="moreButton.png" />
+                    Source="infoLeftSwipe.png" />
                             </Grid>
                         </Grid>
                     </Grid>
                 </DataTemplate>
             </syncfusion:SfListView.LeftSwipeTemplate>
+
+            <syncfusion:SfListView.RightSwipeTemplate>
+                <DataTemplate x:Name="RightSwipeTemplate">
+                    <Grid>
+                        <Grid BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                            <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                <Image Grid.Column="0"
+                    Grid.Row="0"
+                    BackgroundColor="Transparent"
+                    HeightRequest="60"
+                    WidthRequest="60"
+                    Source="addRightSwipe.png" >
+                                    
+                                </Image>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </syncfusion:SfListView.RightSwipeTemplate>
+            
         </syncfusion:SfListView>
     </StackLayout>
-    
+
 </ContentPage>

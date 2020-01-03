@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -10,9 +11,11 @@ using Xamarin.Forms.Xaml;
 namespace Quoridge
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    
+
     public partial class Library : ContentPage
     {
+        public SfPopupLayout popupLayout = new SfPopupLayout();
+        public Ingredient swiped;
         public Library()
         {
             InitializeComponent();
@@ -23,7 +26,17 @@ namespace Quoridge
 
             searchBar.TextChanged += SearchBar_TextChanged;
 
-            ingredientListView.ItemTapped += IngredientListView_ItemTapped;
+            //ingredientListView.ItemTapped += IngredientListView_ItemTapped;
+
+            ingredientListView.Swiping += IngredientListView_Swiping;
+
+            popupLayout.Closed += PopupLayout_Closed;
+
+        }
+
+        private void IngredientListView_Swiping(object sender, Syncfusion.ListView.XForms.SwipingEventArgs e)
+        {
+            swiped = (Ingredient)e.ItemData;
         }
 
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
@@ -39,40 +52,62 @@ namespace Quoridge
             }
         }
 
-        private void IngredientListView_SelectionChanged(object sender, Syncfusion.ListView.XForms.ItemSelectionChangedEventArgs e)
-        {
-            //var item = ingredientListView.SelectedItem;
-            //App.storage.Add(item as Ingredient);
-            Storage.storage.Add(new Ingredient()
-            {
-                IngredientID = 3,
-                Name = "Brown Egg",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator
-            });
+        //private void IngredientListView_SelectionChanged(object sender, Syncfusion.ListView.XForms.ItemSelectionChangedEventArgs e)
+        //{
 
-        }
+        //}
 
         private void IngredientListView_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
         {
-            Ingredient ingredient = (Ingredient)e.ItemData;
+            //Ingredient ingredient = (Ingredient)e.ItemData;
 
-            Storage.storage.Add(ingredient);
+            //AppShell.storage.Add(ingredient);
 
-            Navigation.RemovePage(AppShell.storagePage);
-            AppShell.storagePage = new Storage();
-            Navigation.InsertPageBefore(AppShell.storagePage, this);
+            //Navigation.RemovePage(AppShell.storagePage);
+            //AppShell.storagePage = new Storage();
+            //Navigation.InsertPageBefore(AppShell.storagePage, this);
 
-            var popupLayout = new SfPopupLayout();
-            popupLayout.PopupView.AnimationMode = AnimationMode.Zoom;
-            popupLayout.Show();
-            
+
+
+            //var popupLayout = new SfPopupLayout();
+            //popupLayout.PopupView.AnimationMode = AnimationMode.Zoom;
+            //popupLayout.Show();
         }
 
         
-        //async void OnPreviousPageButtonClicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PopToRootAsync();
-        //}
+        async void OnPreviousPageButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            IsEnabled = false;
+
+            Ingredient ingredient = swiped;
+
+            AppShell.storage.Add(ingredient);
+
+            if(AppShell.fromDrawer == false)
+            {
+                Navigation.RemovePage(AppShell.storagePage);
+                AppShell.storagePage = new Storage();
+                Navigation.InsertPageBefore(AppShell.storagePage, this);
+            }
+
+            popupLayout.PopupView.AnimationMode = AnimationMode.Zoom;
+            popupLayout.Show();
+            
+            if (popupLayout.IsOpen == true)
+            {
+                await Task.Delay(1000);
+                IsEnabled = true;
+            }
+        }
+
+        private void PopupLayout_Closed(object sender, EventArgs e)
+        {
+            ingredientListView.ResetSwipe(true);
+        }
     }
 }
