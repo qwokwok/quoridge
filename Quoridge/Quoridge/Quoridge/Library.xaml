@@ -50,9 +50,9 @@
                                 <Image Grid.Column="0"
                     Grid.Row="0"
                     BackgroundColor="Transparent"
-                    HeightRequest="35"
-                    WidthRequest="35"
-                    Source="infoLeftSwipe.png" />
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    Source="addShoppingLeftSwipe.png" />
                             </Grid>
                         </Grid>
                     </Grid>

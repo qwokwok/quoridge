@@ -24,7 +24,7 @@ namespace Quoridge
                 Name = "White Egg",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "egg.png",
+                Image = "whiteEgg.png",
                 Description = "consists primarily of about 90% water into which about 10% proteins (including albumins, mucoproteins, and globulins) are dissolved. Unlike the yolk, which is high in lipids (fats), egg white contains almost no fat, and carbohydrate content is less than 1%."
             });
 
@@ -34,7 +34,7 @@ namespace Quoridge
                 Name = "Brown Egg",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "NotDone.png",
+                Image = "drawable/dairy/brownEgg.png",
                 Description = ""
             });
 
@@ -44,7 +44,7 @@ namespace Quoridge
                 Name = "Butter",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "NotDone.png",
+                Image = "/dairy/butter.png",
                 Description = ""
             });
 
@@ -54,7 +54,7 @@ namespace Quoridge
                 Name = "Milk",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "NotDone.png",
+                Image = "dairy/milk.png",
                 Description = ""
             });
 
@@ -64,7 +64,7 @@ namespace Quoridge
                 Name = "Parmesan",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "NotDone.png",
+                Image = "dairy/parmesan.png",
                 Description = ""
             });
 
@@ -74,7 +74,7 @@ namespace Quoridge
                 Name = "Cheddar",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "NotDone.png",
+                Image = "dairy/cheddar.png",
                 Description = ""
             });
 
@@ -84,7 +84,7 @@ namespace Quoridge
                 Name = "American Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "NotDone.png",
+                Image = "dairy/americanCheese.png",
                 Description = ""
             });
 
@@ -94,7 +94,7 @@ namespace Quoridge
                 Name = "Sour Cream",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "NotDone.png",
+                Image = "dairy/sourCream.png",
                 Description = ""
             });
 
@@ -104,7 +104,7 @@ namespace Quoridge
                 Name = "Cream Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
-                Image = "NotDone.png",
+                Image = "dairy/creamCheese.png",
                 Description = ""
             });
         }

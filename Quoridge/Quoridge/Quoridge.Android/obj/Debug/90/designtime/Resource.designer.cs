@@ -5762,6 +5762,9 @@ namespace Quoridge.Droid
 			// aapt resource value: 0x7F070074
 			public const int addRightSwipe = 2131165300;
 			
+			// aapt resource value: 0x7F070075
+			public const int addShoppingLeftSwipe = 2131165301;
+			
 			// aapt resource value: 0x7F070000
 			public const int Avatar1 = 2131165184;
 			
@@ -5852,32 +5855,29 @@ namespace Quoridge.Droid
 			// aapt resource value: 0x7F07001D
 			public const int Avatar9 = 2131165213;
 			
-			// aapt resource value: 0x7F070075
-			public const int avd_hide_password = 2131165301;
-			
 			// aapt resource value: 0x7F070076
-			public const int avd_show_password = 2131165302;
+			public const int avd_hide_password = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int design_bottom_navigation_item_background = 2131165303;
+			public const int avd_show_password = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int design_fab_background = 2131165304;
+			public const int design_bottom_navigation_item_background = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int design_ic_visibility = 2131165305;
+			public const int design_fab_background = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int design_ic_visibility_off = 2131165306;
+			public const int design_ic_visibility = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int design_password_eye = 2131165307;
+			public const int design_ic_visibility_off = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int design_snackbar_background = 2131165308;
+			public const int design_password_eye = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int egg = 2131165309;
+			public const int design_snackbar_background = 2131165309;
 			
 			// aapt resource value: 0x7F070081
 			public const int icon = 2131165313;
@@ -5998,6 +5998,9 @@ namespace Quoridge.Droid
 			
 			// aapt resource value: 0x7F0700A4
 			public const int tooltip_frame_light = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int whiteEgg = 2131165349;
 			
 			static Drawable()
 			{

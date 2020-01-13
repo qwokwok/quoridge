@@ -32,10 +32,10 @@ namespace Quoridge.Droid
 
         private async void TestButton_Click(object sender, EventArgs e)
         {
-            testButton.Clickable = true;
+            testButton.Clickable = false;
             StartActivity(typeof(MainActivity));
-            await Task.Delay(500);
             Finish();
+            await Task.Delay(500);
             testButton.Clickable = true;
         }
     }
