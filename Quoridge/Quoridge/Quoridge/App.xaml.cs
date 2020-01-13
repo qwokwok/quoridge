@@ -7,10 +7,10 @@ namespace Quoridge
 {
     public partial class App : Application
     {
-        public static List<Ingredient> ingredients = new List<Ingredient>();
+        //public static List<Ingredient> ingredients = new List<Ingredient>();
         public App()
         {
-            Data.UniversalFood();
+            //Data.UniversalFood();
 
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTg4NTQ1QDMxMzcyZTM0MmUzMGhrd3JWRGFaNUQ1ZXFUMExZRTlBZmNGM0xCcXQ2NCsya09rd1psU1VZbnM9");
 

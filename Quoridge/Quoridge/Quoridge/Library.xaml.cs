@@ -20,7 +20,7 @@ namespace Quoridge
         {
             InitializeComponent();
 
-            ingredientListView.ItemsSource = App.ingredients;
+            ingredientListView.ItemsSource = Data.ingredients;
 
             //ingredientListView.SelectionChanged += IngredientListView_SelectionChanged;
 
@@ -31,6 +31,8 @@ namespace Quoridge
             ingredientListView.Swiping += IngredientListView_Swiping;
 
             popupLayout.Closed += PopupLayout_Closed;
+
+            
 
         }
 
@@ -43,11 +45,11 @@ namespace Quoridge
         {
             if(string.IsNullOrEmpty(e.NewTextValue))
             {
-                ingredientListView.ItemsSource = App.ingredients;
+                ingredientListView.ItemsSource = Data.ingredients;
             }
             else
             {
-                ingredientListView.ItemsSource = (App.ingredients.Where(x => x.Name.ToLower().Contains(e.NewTextValue.ToLower()) 
+                ingredientListView.ItemsSource = (Data.ingredients.Where(x => x.Name.ToLower().Contains(e.NewTextValue.ToLower()) 
                 || x.Category.ToString().ToLower().Contains(e.NewTextValue.ToLower())));
             }
         }
