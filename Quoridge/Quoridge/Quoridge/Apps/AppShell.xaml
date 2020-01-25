@@ -46,7 +46,7 @@
     </FlyoutItem>
     <FlyoutItem Title="Shopping"
                 Icon="shoppingIcon.png">
-        <ShellContent ContentTemplate="{DataTemplate local:Shopping}"/>
+        <ShellContent ContentTemplate="{DataTemplate local:ShoppingPage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Ingredients"
                 Icon="ingredientIcon.png">
@@ -54,10 +54,10 @@
     </FlyoutItem>
     <FlyoutItem Title="Recipes"
                 Icon="recipeIcon.png">
-        <ShellContent ContentTemplate="{DataTemplate local:Recipe}"/>
+        <ShellContent ContentTemplate="{DataTemplate local:RecipePage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Setting"
                 Icon="settingIcon.png">
-        <ShellContent ContentTemplate="{DataTemplate local:Setting}"/>
+        <ShellContent ContentTemplate="{DataTemplate local:SettingPage}"/>
     </FlyoutItem>
 </Shell>

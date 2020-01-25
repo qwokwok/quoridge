@@ -41,11 +41,11 @@ C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debu
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\ref\Quoridge.dll
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.pdb
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\ProfilePage.xaml.g.cs
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\Recipe.xaml.g.cs
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\Setting.xaml.g.cs
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\Shopping.xaml.g.cs
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\Storage.xaml.g.cs
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Apps\App.xaml.g.cs
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Apps\AppShell.xaml.g.cs
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\LibraryPage.xaml.g.cs
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\StoragePage.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\RecipePage.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\SettingPage.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\ShoppingPage.xaml.g.cs
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\PopUp.xaml.g.cs

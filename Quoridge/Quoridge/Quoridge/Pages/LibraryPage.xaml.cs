@@ -82,15 +82,9 @@ namespace Quoridge
 
             Ingredient ingredient = swiped;
 
-            AppShell.storage.Add(ingredient);
+            //AppShell.storage.Add(ingredient);
 
-            if (AppShell.fromDrawer == false)
-            {
-                Navigation.RemovePage(AppShell.storagePage);
-                AppShell.storagePage = new Storage();
-                Navigation.InsertPageBefore(AppShell.storagePage, this);
-            }
-
+            await Navigation.PushAsync(new PopUp());
             popupLayout.PopupView.AnimationMode = AnimationMode.Zoom;
             popupLayout.Show();
 

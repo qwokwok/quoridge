@@ -447,16 +447,6 @@ namespace Quoridge
             list.Add(new Ingredient()
             {
                 IngredientID = 45,
-                Name = "Queso Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "quesoCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 46,
                 Name = "Hard Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -466,7 +456,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 47,
+                IngredientID = 46,
                 Name = "Havarti Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -476,7 +466,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 48,
+                IngredientID = 47,
                 Name = "Asiago",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -486,7 +476,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 49,
+                IngredientID = 48,
                 Name = "Mascarpone",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -496,7 +486,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 50,
+                IngredientID = 49,
                 Name = "Neufchatel",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -506,7 +496,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 51,
+                IngredientID = 50,
                 Name = "Halloumi",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -516,7 +506,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 52,
+                IngredientID = 51,
                 Name = "Paneer",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -526,7 +516,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 53,
+                IngredientID = 52,
                 Name = "Brick Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -536,7 +526,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 54,
+                IngredientID = 53,
                 Name = "Camembert Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -546,7 +536,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 55,
+                IngredientID = 54,
                 Name = "Garlic Herb Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -556,7 +546,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 56,
+                IngredientID = 55,
                 Name = "Edam Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -566,7 +556,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 57,
+                IngredientID = 56,
                 Name = "Manchego",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -576,7 +566,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 58,
+                IngredientID = 57,
                 Name = "Fontina",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -586,7 +576,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 59,
+                IngredientID = 58,
                 Name = "Stilton Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -596,7 +586,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 60,
+                IngredientID = 59,
                 Name = "Emmental Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -606,7 +596,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 61,
+                IngredientID = 60,
                 Name = "Red Leicester Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -616,7 +606,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 62,
+                IngredientID = 61,
                 Name = "Jarlsberg Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -626,7 +616,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 63,
+                IngredientID = 62,
                 Name = "Bocconcini Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -636,7 +626,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 64,
+                IngredientID = 63,
                 Name = "Farmer Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -646,7 +636,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 65,
+                IngredientID = 64,
                 Name = "Creme De Cassis",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -656,7 +646,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 66,
+                IngredientID = 65,
                 Name = "Wensleydale Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -666,7 +656,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 67,
+                IngredientID = 66,
                 Name = "Longhorn Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -676,7 +666,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 68,
+                IngredientID = 67,
                 Name = "Double Gloucester",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -686,7 +676,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 69,
+                IngredientID = 68,
                 Name = "Raclette Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -696,7 +686,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 70,
+                IngredientID = 69,
                 Name = "Lancashire Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
@@ -706,7 +696,7 @@ namespace Quoridge
 
             list.Add(new Ingredient()
             {
-                IngredientID = 71,
+                IngredientID = 70,
                 Name = "Cheshire Cheese",
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,

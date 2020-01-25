@@ -9,6 +9,10 @@
              BackgroundImageSource="test.png"
              x:Class="Quoridge.LibraryPage">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="moreButton.png"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
     <StackLayout>
         <SearchBar
                 x:Name="searchBar"

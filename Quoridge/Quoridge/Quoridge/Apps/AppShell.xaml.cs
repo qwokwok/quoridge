@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+using System.Collections.ObjectModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,14 +8,14 @@ namespace Quoridge
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AppShell : Shell
     {
-        public static List<Ingredient> storage = new List<Ingredient>();
-        public static Storage storagePage;
+        public static ObservableCollection<Ingredient> storage = new ObservableCollection<Ingredient>();
+        public static StoragePage storagePage;
         public static bool fromDrawer = false;
         public AppShell()
         {       
             InitializeComponent();
 
-            storagePage = new Storage();
+            storagePage = new StoragePage();
 
             ingredientTemplate.Appearing += IngredientTemplate_Appearing;
             //Application.Current.Properties["ID"] = "started";
