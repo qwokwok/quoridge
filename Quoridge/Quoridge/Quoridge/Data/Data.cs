@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 
@@ -7,20 +8,22 @@ namespace Quoridge
 {
     public static class Data
     {
-        public static List<Ingredient> ingredients { get; private set; }
+        public static ObservableCollection<Ingredient> ingredients;
         static Data()
         {
             var list = new List<Ingredient>();
-
+            var newList = new ObservableCollection<Ingredient>();
             UniversalFood(list);
+            var preIngredients = list.OrderBy(i => i.Name).ToList();
 
-            ingredients = list.OrderBy(i => i.Name).ToList();
+            for (int i = 0; i < preIngredients.Count; i++)
+                newList.Add(preIngredients[i]);
+            ingredients = newList;
         }
         public static void UniversalFood(List<Ingredient> list)
         {
             list.Add(new Ingredient() { IngredientID = 1, Name = "Salmon", Category = Categories.Fish, Where = Where.Frozen, Image = "NotDone.png", Description = "" });
-            list.Add(new Ingredient()
-            {
+            list.Add(new Ingredient() {
                 IngredientID = 2,
                 Name = "White Egg",
                 Category = Categories.Dairy,
@@ -30,16 +33,7 @@ namespace Quoridge
             });
 
             list.Add(new Ingredient() { IngredientID = 3, Name = "Brown Egg", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "brownEgg.png", Description = "" });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 4,
-                Name = "Butter",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "butter.png",
-                Description = ""
-            });
+            list.Add(new Ingredient() { IngredientID = 4, Name = "Butter", Category = Categories.Dairy, Where = Where.Refrigerator,Image = "butter.png", Description = "" });
 
             list.Add(new Ingredient()
             {

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Quoridge"
+             mc:Ignorable="d"
+             BackgroundColor="#9775AA"
+             x:Class="Quoridge.AppShell"
+             FlyoutBackgroundColor="#9775AA">
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <ContentView BackgroundColor="#764B8E" HeightRequest="150" >
+                <Image Source="kawaii.png"></Image>
+            </ContentView>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <StackLayout Orientation="Horizontal"
+                         Padding="15, 5, 0, 0"
+                         HeightRequest="50">
+                <Image Source="{Binding Icon}"
+                       HeightRequest="30"
+                       WidthRequest="30"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"/>
+                <Label Text="{Binding Title}"
+                       Margin="15,0,0,0"
+                       TextColor="White"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <FlyoutItem Title="Profile"
+                Icon="profileIcon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}"/>
+    </FlyoutItem>
+    <FlyoutItem x:Name="flyone"
+                Title="My Storage"
+                Icon="storageIcon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Storage}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Shopping"
+                Icon="shoppingIcon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Shopping}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Ingredients"
+                Icon="ingredientIcon.png">
+        <ShellContent x:Name="ingredientTemplate" ContentTemplate="{DataTemplate local:Library}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Recipes"
+                Icon="recipeIcon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Recipe}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Setting"
+                Icon="settingIcon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Setting}"/>
+    </FlyoutItem>
+</Shell>

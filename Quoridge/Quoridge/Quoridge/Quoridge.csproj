@@ -28,25 +28,28 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="AppShell.xaml">
+    <EmbeddedResource Update="Apps\AppShell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Library.xaml">
+    <EmbeddedResource Update="Pages\Library.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="PreStorage.xaml">
+    <EmbeddedResource Update="Pages\PreStorage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Recipe.xaml">
+    <EmbeddedResource Update="Pages\ProfilePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Setting.xaml">
+    <EmbeddedResource Update="Pages\Recipe.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Shopping.xaml">
+    <EmbeddedResource Update="Pages\Setting.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Storage.xaml">
+    <EmbeddedResource Update="Pages\Shopping.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Storage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

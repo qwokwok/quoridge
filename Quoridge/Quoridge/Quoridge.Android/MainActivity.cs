@@ -29,14 +29,6 @@ namespace Quoridge.Droid
             LoadApplication(new App());
         }
 
-        public override void OnBackPressed()
-        {
-            //Back Press is disabled if there is no fragment in the back stack of fragment transaction
-            if (this.SupportFragmentManager.BackStackEntryCount > 0)
-            {
-                base.OnBackPressed();
-            }
-        }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
