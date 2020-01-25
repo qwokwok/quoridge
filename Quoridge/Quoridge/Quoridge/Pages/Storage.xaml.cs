@@ -31,7 +31,7 @@ namespace Quoridge
         {
             AppShell.fromDrawer = false;
             IsEnabled = false;
-            var libraryPage = new Library();
+            var libraryPage = new LibraryPage();
             Shell.SetTabBarIsVisible(libraryPage, true);
             await Shell.Current.Navigation.PushAsync(libraryPage, true);
             IsEnabled = true;

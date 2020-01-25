@@ -50,7 +50,7 @@
     </FlyoutItem>
     <FlyoutItem Title="Ingredients"
                 Icon="ingredientIcon.png">
-        <ShellContent x:Name="ingredientTemplate" ContentTemplate="{DataTemplate local:Library}"/>
+        <ShellContent x:Name="ingredientTemplate" ContentTemplate="{DataTemplate local:LibraryPage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Recipes"
                 Icon="recipeIcon.png">
