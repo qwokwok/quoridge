@@ -42,7 +42,7 @@
     <FlyoutItem x:Name="flyone"
                 Title="My Storage"
                 Icon="storageIcon.png">
-        <ShellContent ContentTemplate="{DataTemplate local:Storage}"/>
+        <ShellContent ContentTemplate="{DataTemplate local:StoragePage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Shopping"
                 Icon="shoppingIcon.png">
