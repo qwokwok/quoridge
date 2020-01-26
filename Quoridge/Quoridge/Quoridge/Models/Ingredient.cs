@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Forms;
 
 namespace Quoridge
 {
@@ -45,5 +46,6 @@ namespace Quoridge
         public Where Where { get; set; }
         public string Image { get; set; }
         public string Description { get; set; }
+        public ImageSource LibraryImage { get; set; }
     }
 }

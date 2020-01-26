@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundImageSource="test.png"
+             BackgroundImageSource="{DynamicResource Back}"
              x:Class="Quoridge.ProfilePage">
 
     <ContentPage.ToolbarItems>

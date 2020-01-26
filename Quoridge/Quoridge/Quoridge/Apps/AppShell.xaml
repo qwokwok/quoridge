@@ -5,9 +5,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:Quoridge"
              mc:Ignorable="d"
-             BackgroundColor="#9775AA"
-             x:Class="Quoridge.AppShell"
-             FlyoutBackgroundColor="#9775AA">
+             FlyoutBackgroundColor="{DynamicResource FlyoutBackgroundColor}"
+             BackgroundColor="{DynamicResource NavigationBarColor}"
+             x:Class="Quoridge.AppShell">
 
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>

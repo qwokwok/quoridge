@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
+using Xamarin.Forms;
 
 namespace Quoridge
 {
@@ -29,8 +30,9 @@ namespace Quoridge
                 Category = Categories.Dairy,
                 Where = Where.Refrigerator,
                 Image = "whiteEgg.png",
-                Description = "consists primarily of about 90% water into which about 10% proteins (including albumins, mucoproteins, and globulins) are dissolved. Unlike the yolk, which is high in lipids (fats), egg white contains almost no fat, and carbohydrate content is less than 1%."
-            });
+                Description = "consists primarily of about 90% water into which about 10% proteins (including albumins, mucoproteins, and globulins) are dissolved. Unlike the yolk, which is high in lipids (fats), egg white contains almost no fat, and carbohydrate content is less than 1%.",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.whiteEgg.png", typeof(LibraryPage))
+        });
 
             list.Add(new Ingredient() { IngredientID = 3, Name = "Brown Egg", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "brownEgg.png", Description = "" });
             list.Add(new Ingredient() { IngredientID = 4, Name = "Butter", Category = Categories.Dairy, Where = Where.Refrigerator,Image = "butter.png", Description = "" });

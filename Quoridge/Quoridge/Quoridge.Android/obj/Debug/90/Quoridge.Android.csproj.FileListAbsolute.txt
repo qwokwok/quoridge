@@ -1096,7 +1096,6 @@ C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\storageicon.png
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\kawaii.png
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\ingredienticon.png
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\test.png
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\addrightswipe.png
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\notdone.png
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\infoleftswipe.png
@@ -1649,3 +1648,6 @@ C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\addbutton.png
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\purpletheme.png
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\themes\purpletheme.png

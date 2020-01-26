@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              Title="My Storage"
-             BackgroundImageSource="test.png"
+             BackgroundImageSource="{DynamicResource Back}"
              x:Class="Quoridge.StoragePage">
 
     <ContentPage.ToolbarItems>
@@ -39,18 +39,19 @@
             </syncfusion:SfListView>
 
         </StackLayout>
+
         <Button
-            x:Name="AddButton"
-            Clicked="AddButton_Clicked"
-            Image="add.png" 
-            WidthRequest="56" 
-            HeightRequest="56"
-            CornerRadius="28"
-            HorizontalOptions="End" 
-            VerticalOptions="End"
-            AbsoluteLayout.LayoutFlags="PositionProportional"
-            AbsoluteLayout.LayoutBounds="1.0,1.0,-1,-1"
-            Margin="10" >
-        </Button>
+                x:Name="AddButton"
+                Clicked="AddButton_Clicked"
+                Image="addButton.png"
+                WidthRequest="56" 
+                HeightRequest="56"
+                CornerRadius="28"
+                BackgroundColor="{DynamicResource Fab}"
+                HorizontalOptions="End" 
+                VerticalOptions="End"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="1.0,1.0,-1,-1"
+                Margin="10"/>
     </AbsoluteLayout>
 </ContentPage>

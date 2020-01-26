@@ -12,10 +12,14 @@
 
   <ItemGroup>
     <None Remove="Food.json" />
+    <None Remove="Images\test.png" />
+    <None Remove="Images\whiteEgg.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Food.json" />
+    <EmbeddedResource Include="Images\test.png" />
+    <EmbeddedResource Include="Images\Dairy\whiteEgg.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -52,9 +56,5 @@
     <EmbeddedResource Update="Themes\Purple.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Images\" />
   </ItemGroup>
 </Project>
