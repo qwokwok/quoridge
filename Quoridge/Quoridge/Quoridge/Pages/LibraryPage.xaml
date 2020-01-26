@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sfPopup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms"
              xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              mc:Ignorable="d"
              Title="Ingredients"
@@ -12,9 +13,25 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="moreButton.png"></ToolbarItem>
     </ContentPage.ToolbarItems>
-    
-    <StackLayout>
-        <SearchBar
+
+    <sfPopup:SfPopupLayout x:Name="popupLayout">
+        <sfPopup:SfPopupLayout.PopupView>
+            <sfPopup:PopupView WidthRequest="350" HeightRequest="120" ShowFooter="False" ShowHeader="False">
+                <sfPopup:PopupView.ContentTemplate>
+                    <DataTemplate>
+                        <RelativeLayout>
+                            <Image></Image>
+                            <ImageButton>
+
+                            </ImageButton>
+                        </RelativeLayout>
+                    </DataTemplate>
+                </sfPopup:PopupView.ContentTemplate>
+            </sfPopup:PopupView>
+           </sfPopup:SfPopupLayout.PopupView>
+        <sfPopup:SfPopupLayout.Content>
+            <StackLayout>
+                <SearchBar
                 x:Name="searchBar"
                 Placeholder="Enter an Ingredient"
                 CancelButtonColor="White"
@@ -23,7 +40,7 @@
                 BackgroundColor="Transparent"
                 HorizontalTextAlignment="Center"/>
 
-        <syncfusion:SfListView x:Name="ingredientListView" 
+                <syncfusion:SfListView x:Name="ingredientListView" 
                            AllowSwiping="True"
                            ItemsSource="{Binding Ingredient}" 
                            ItemSize="110"
@@ -31,59 +48,61 @@
                            SelectionGesture="Tap" 
                            ItemSpacing="10,1,10,1"
                            SelectionBackgroundColor="Transparent">
-            <syncfusion:SfListView.ItemTemplate>
-                <DataTemplate>
+                    <syncfusion:SfListView.ItemTemplate>
+                        <DataTemplate>
 
-                    <ViewCell>
-                        <Frame x:Name="frame" CornerRadius="55" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="0" Margin="0">
-                            <AbsoluteLayout BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill">
-                                <Image Source="{Binding Image}"></Image>
-                            </AbsoluteLayout>
-                        </Frame>
-                    </ViewCell>
+                            <ViewCell>
+                                <Frame x:Name="frame" CornerRadius="55" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="0" Margin="0">
+                                    <AbsoluteLayout BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill">
+                                        <Image Source="{Binding Image}"></Image>
+                                    </AbsoluteLayout>
+                                </Frame>
+                            </ViewCell>
 
-                </DataTemplate>
-            </syncfusion:SfListView.ItemTemplate>
+                        </DataTemplate>
+                    </syncfusion:SfListView.ItemTemplate>
 
-            <syncfusion:SfListView.LeftSwipeTemplate>
-                <DataTemplate x:Name="LeftSwipeTemplate">
-                    <Grid>
-                        <Grid BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
-                            <Grid VerticalOptions="Center" HorizontalOptions="Center">
-                                <Image Grid.Column="0"
+                    <syncfusion:SfListView.LeftSwipeTemplate>
+                        <DataTemplate x:Name="LeftSwipeTemplate">
+                            <Grid>
+                                <Grid BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                                    <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                        <Image Grid.Column="0"
                     Grid.Row="0"
                     BackgroundColor="Transparent"
                     HeightRequest="50"
                     WidthRequest="50"
                     Source="addShoppingLeftSwipe.png" />
+                                    </Grid>
+                                </Grid>
                             </Grid>
-                        </Grid>
-                    </Grid>
-                </DataTemplate>
-            </syncfusion:SfListView.LeftSwipeTemplate>
+                        </DataTemplate>
+                    </syncfusion:SfListView.LeftSwipeTemplate>
 
-            <syncfusion:SfListView.RightSwipeTemplate>
-                <DataTemplate x:Name="RightSwipeTemplate">
-                    <Grid>
-                        <Grid BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
-                            <Grid VerticalOptions="Center" HorizontalOptions="Center">
-                                <Image Grid.Column="0"
+                    <syncfusion:SfListView.RightSwipeTemplate>
+                        <DataTemplate x:Name="RightSwipeTemplate">
+                            <Grid>
+                                <Grid BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                                    <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                        <Image Grid.Column="0"
                     Grid.Row="0"
                     BackgroundColor="Transparent"
                     HeightRequest="60"
                     WidthRequest="60"
                     Source="addRightSwipe.png" >
 
-                                </Image>
-                                <Grid.GestureRecognizers>
-                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
-                                </Grid.GestureRecognizers>
+                                        </Image>
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                                        </Grid.GestureRecognizers>
+                                    </Grid>
+                                </Grid>
                             </Grid>
-                        </Grid>
-                    </Grid>
-                </DataTemplate>
-            </syncfusion:SfListView.RightSwipeTemplate>
+                        </DataTemplate>
+                    </syncfusion:SfListView.RightSwipeTemplate>
 
-        </syncfusion:SfListView>
-    </StackLayout>
+                </syncfusion:SfListView>
+            </StackLayout>
+        </sfPopup:SfPopupLayout.Content>
+    </sfPopup:SfPopupLayout>
 </ContentPage>

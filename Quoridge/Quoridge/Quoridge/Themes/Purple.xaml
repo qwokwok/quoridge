@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="Quoridge.Purple">
+
+
+    <x:String x:Key="ContentBackgroundImage">test.ping</x:String>
+    <Color x:Key="NavigationBarColor">#9775AA</Color>
+    <Color x:Key="NavigationTextColor">White</Color>
+    <Color x:Key="ShellBackgroundColor">#9775AA</Color>
+    <Color x:Key="FlyoutBackgroundColor">#764B8E</Color>
+    <Color x:Key="Fab">#764B8E</Color>
+    <x:String x:Key="Theme">Purple</x:String>
+
+</ResourceDictionary>

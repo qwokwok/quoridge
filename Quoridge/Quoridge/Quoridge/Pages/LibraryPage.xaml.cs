@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,7 +13,7 @@ namespace Quoridge
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LibraryPage : ContentPage
     {
-        public SfPopupLayout popupLayout = new SfPopupLayout();
+        //public SfPopupLayout popupLayout = new SfPopupLayout();
         public Ingredient swiped;
         public LibraryPage()
         {
@@ -29,7 +29,7 @@ namespace Quoridge
 
             ingredientListView.Swiping += IngredientListView_Swiping;
 
-            popupLayout.Closed += PopupLayout_Closed;
+            //popupLayout.Closed += PopupLayout_Closed;
         }
 
         private void IngredientListView_Swiping(object sender, Syncfusion.ListView.XForms.SwipingEventArgs e)
@@ -84,7 +84,6 @@ namespace Quoridge
 
             //AppShell.storage.Add(ingredient);
 
-            await Navigation.PushAsync(new PopUp());
             popupLayout.PopupView.AnimationMode = AnimationMode.Zoom;
             popupLayout.Show();
 
