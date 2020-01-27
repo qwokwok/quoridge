@@ -45,7 +45,7 @@ namespace Quoridge
         public int LastBeforeExpire { get; set; }
         public Where Where { get; set; }
         public string Image { get; set; }
-        public string Description { get; set; }
         public ImageSource LibraryImage { get; set; }
+        public string Description { get; set; }
     }
 }

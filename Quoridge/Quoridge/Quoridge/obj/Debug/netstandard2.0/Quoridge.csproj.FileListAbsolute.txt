@@ -34,6 +34,7 @@ C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debu
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\ref\Quoridge.dll
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\bin\Debug\netstandard2.0\Quoridge.pdb
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.csprojAssemblyReference.cache
+C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Apps\AppShell.xaml.g.cs
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\LibraryPage.xaml.g.cs
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Pages\ProfilePage.xaml.g.cs
@@ -48,4 +49,3 @@ C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debu
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.dll
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\ref\Quoridge.dll
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.pdb
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\App.xaml.g.cs

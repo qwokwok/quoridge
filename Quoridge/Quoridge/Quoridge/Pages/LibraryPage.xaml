@@ -15,20 +15,16 @@
     </ContentPage.ToolbarItems>
 
     <sfPopup:SfPopupLayout x:Name="popupLayout">
-        <sfPopup:SfPopupLayout.PopupView>
-            <sfPopup:PopupView WidthRequest="350" HeightRequest="120" ShowFooter="False" ShowHeader="False">
-                <sfPopup:PopupView.ContentTemplate>
+        <!--<sfPopup:SfPopupLayout.PopupView>
+            <sfPopup:PopupView ShowFooter="False" ShowHeader="False" WidthRequest="375" HeightRequest="268" HorizontalOptions="FillAndExpand">
+                <sfPopup:PopupView.ContentTemplate x:Uid="firstPopUp">
                     <DataTemplate>
-                        <RelativeLayout>
-                            <Image></Image>
-                            <ImageButton>
-
-                            </ImageButton>
-                        </RelativeLayout>
+                        <Image Source="popup.png"/>
                     </DataTemplate>
                 </sfPopup:PopupView.ContentTemplate>
             </sfPopup:PopupView>
-           </sfPopup:SfPopupLayout.PopupView>
+        </sfPopup:SfPopupLayout.PopupView>-->
+
         <sfPopup:SfPopupLayout.Content>
             <StackLayout>
                 <SearchBar
@@ -52,9 +48,9 @@
                         <DataTemplate>
 
                             <ViewCell>
-                                <Frame x:Name="frame" CornerRadius="55" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="0" Margin="0">
+                                <Frame CornerRadius="55" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="0" Margin="0">
                                     <AbsoluteLayout BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill">
-                                        <Image Source="{Binding Image}"></Image>
+                                        <Image Source="{Binding LibraryImage}"></Image>
                                     </AbsoluteLayout>
                                 </Frame>
                             </ViewCell>
@@ -68,11 +64,15 @@
                                 <Grid BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
                                     <Grid VerticalOptions="Center" HorizontalOptions="Center">
                                         <Image Grid.Column="0"
-                    Grid.Row="0"
+                                            Grid.Row="0"
                     BackgroundColor="Transparent"
                     HeightRequest="50"
                     WidthRequest="50"
-                    Source="addShoppingLeftSwipe.png" />
+                    Source="addShoppingLeftSwipe.png" >
+                                        </Image>
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="LeftTap_Tapped"/>
+                                        </Grid.GestureRecognizers>
                                     </Grid>
                                 </Grid>
                             </Grid>
@@ -93,7 +93,7 @@
 
                                         </Image>
                                         <Grid.GestureRecognizers>
-                                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                                            <TapGestureRecognizer Tapped="RightTap_Tapped"/>
                                         </Grid.GestureRecognizers>
                                     </Grid>
                                 </Grid>
