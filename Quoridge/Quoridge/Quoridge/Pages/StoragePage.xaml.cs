@@ -27,7 +27,6 @@ namespace Quoridge
 
         private async void AddButton_Clicked(object sender, EventArgs e)
         {
-            AppShell.fromDrawer = false;
             IsEnabled = false;
             var libraryPage = new LibraryPage();
             Shell.SetTabBarIsVisible(libraryPage, true);

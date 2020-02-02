@@ -12,6 +12,12 @@
 
   <ItemGroup>
     <None Remove="Food.json" />
+    <None Remove="Images\add.png" />
+    <None Remove="Images\addButton.png" />
+    <None Remove="Images\addRightSwipe.png" />
+    <None Remove="Images\addShoppingLeftSwipe.png" />
+    <None Remove="Images\circleProfile.png" />
+    <None Remove="Images\circlePurple.png" />
     <None Remove="Images\Dairy\americanCheese.png" />
     <None Remove="Images\Dairy\asiago.png" />
     <None Remove="Images\Dairy\blueCheese.png" />
@@ -82,13 +88,31 @@
     <None Remove="Images\Dairy\wensleydaleCheese.png" />
     <None Remove="Images\Dairy\whippedCream.png" />
     <None Remove="Images\Dairy\yogurt.png" />
+    <None Remove="Images\Fish\NotDone.png" />
+    <None Remove="Images\ingredientIcon.png" />
+    <None Remove="Images\kawaii.png" />
+    <None Remove="Images\moreButton.png" />
     <None Remove="Images\popup.png" />
+    <None Remove="Images\profileIcon.png" />
+    <None Remove="Images\purpleTheme.png" />
+    <None Remove="Images\recipeIcon.png" />
+    <None Remove="Images\settingIcon.png" />
+    <None Remove="Images\shoppingIcon.png" />
     <None Remove="Images\shoppingPopup.png" />
+    <None Remove="Images\storageIcon.png" />
     <None Remove="Images\whiteEgg.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Food.json" />
+    <EmbeddedResource Include="Images\addButton.png" />
+    <EmbeddedResource Include="Images\addRightSwipe.png" />
+    <EmbeddedResource Include="Images\addShoppingLeftSwipe.png" />
+    <EmbeddedResource Include="Images\circleProfile.png" />
+    <EmbeddedResource Include="Images\circlePurple.png" />
+    <EmbeddedResource Include="Images\kawaii.png" />
+    <EmbeddedResource Include="Images\moreButton.png" />
+    <EmbeddedResource Include="Images\purpleTheme.png" />
     <EmbeddedResource Include="Images\Dairy\americanCheese.png" />
     <EmbeddedResource Include="Images\Dairy\asiago.png" />
     <EmbeddedResource Include="Images\Dairy\blueCheese.png" />
@@ -160,8 +184,15 @@
     <EmbeddedResource Include="Images\Dairy\whippedCream.png" />
     <EmbeddedResource Include="Images\Dairy\whiteEgg.png" />
     <EmbeddedResource Include="Images\Dairy\yogurt.png" />
+    <EmbeddedResource Include="Images\Fish\NotDone.png" />
+    <EmbeddedResource Include="Images\ingredientIcon.png" />
     <EmbeddedResource Include="Images\popup.png" />
+    <EmbeddedResource Include="Images\profileIcon.png" />
+    <EmbeddedResource Include="Images\recipeIcon.png" />
+    <EmbeddedResource Include="Images\settingIcon.png" />
+    <EmbeddedResource Include="Images\shoppingIcon.png" />
     <EmbeddedResource Include="Images\shoppingPopup.png" />
+    <EmbeddedResource Include="Images\storageIcon.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -198,5 +229,9 @@
     <EmbeddedResource Update="Themes\Purple.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\Themes\" />
   </ItemGroup>
 </Project>

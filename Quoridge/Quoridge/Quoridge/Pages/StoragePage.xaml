@@ -4,9 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:local="clr-namespace:Quoridge"
              xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              Title="My Storage"
-             BackgroundImageSource="{DynamicResource Back}"
+             BackgroundImageSource="{DynamicResource Background}"
              x:Class="Quoridge.StoragePage">
 
     <ContentPage.ToolbarItems>
@@ -43,7 +44,7 @@
         <Button
                 x:Name="AddButton"
                 Clicked="AddButton_Clicked"
-                Image="addButton.png"
+                ImageSource="{local:ImageFromPCL Quoridge.Images.addButton.png}"
                 WidthRequest="56" 
                 HeightRequest="56"
                 CornerRadius="28"
@@ -55,3 +56,4 @@
                 Margin="10"/>
     </AbsoluteLayout>
 </ContentPage>
+    

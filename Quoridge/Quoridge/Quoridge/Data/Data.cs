@@ -15,7 +15,7 @@ namespace Quoridge
             var list = new List<Ingredient>();
             var newList = new ObservableCollection<Ingredient>();
             UniversalFood(list);
-            var preIngredients = list.OrderBy(i => i.Name).ToList();
+            var preIngredients = list;  /*.OrderBy(i => i.Name).ToList(); */
 
             for (int i = 0; i < preIngredients.Count; i++)
                 newList.Add(preIngredients[i]);
@@ -25,7 +25,7 @@ namespace Quoridge
         {
             list.Add(new Ingredient() { IngredientID = 1, Name = "Salmon", Category = Categories.Fish, Where = Where.Frozen, Image = "NotDone.png",
                 Description = "",
-                //LibraryImage = ImageSource.FromResource("Quoridge.Images.Fish.salmon.png", typeof(LibraryPage))
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Fish.NotDone.png", typeof(LibraryPage))
             });
             list.Add(new Ingredient() { IngredientID = 2, Name = "White Egg", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "whiteEgg.png",
                 LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.whiteEgg.png", typeof(LibraryPage)),
@@ -145,327 +145,102 @@ namespace Quoridge
             list.Add(new Ingredient() { IngredientID = 40, Name = "Cheese Soup", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "cheeseSoup.png",
                 LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.cheeseSoup.png", typeof(LibraryPage)),
                 Description = "" });
-
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 41,
-                Name = "Gruyere",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "gruyere.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 42,
-                Name = "Pecorino Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "pecorinoCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 43,
-                Name = "Custard",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "custard.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 44,
-                Name = "Muenster",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "muenster.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 45,
-                Name = "Queso Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "quesoCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 46,
-                Name = "Hard Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "hardCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 47,
-                Name = "Havarti Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "havartiCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 48,
-                Name = "Asiago",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "asiago.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 49,
-                Name = "Mascarpone",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "mascarpone.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 50,
-                Name = "Neufchatel",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "neufchatel.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 51,
-                Name = "Halloumi",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "halloumi.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 52,
-                Name = "Paneer",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "paneer.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 53,
-                Name = "Brick Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "brickCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 54,
-                Name = "Camembert Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "camembertCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 55,
-                Name = "Garlic Herb Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "garlicHerbCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 56,
-                Name = "Edam Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "edamCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 57,
-                Name = "Manchego",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "manchego.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 58,
-                Name = "Fontina",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "fontina.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 59,
-                Name = "Stilton Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "stiltonCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 60,
-                Name = "Emmental Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "emmentalCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 61,
-                Name = "Red Leicester Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "redLeicesterCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 62,
-                Name = "Jarlsberg Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "jarlsbergCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 63,
-                Name = "Bocconcini Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "bocconciniCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 64,
-                Name = "Farmer Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "farmerCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 65,
-                Name = "Creme De Cassis",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "cremeDeCassis.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 66,
-                Name = "Wensleydale Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "wensleydaleCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 67,
-                Name = "Longhorn Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "longhornCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 68,
-                Name = "Double Gloucester",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "doubleGloucester.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 69,
-                Name = "Raclette Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "racletteCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 70,
-                Name = "Lancashire Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "lancashireCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 71,
-                Name = "Cheshire Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "cheshireCheese.png",
-                Description = ""
-            });
-
-            list.Add(new Ingredient()
-            {
-                IngredientID = 72,
-                Name = "Goat Cheese",
-                Category = Categories.Dairy,
-                Where = Where.Refrigerator,
-                Image = "goatCheese.png",
-                Description = ""
-            });
+            list.Add(new Ingredient() { IngredientID = 41, Name = "Gruyere", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "gruyere.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.gruyere.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 42, Name = "Pecorino Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "pecorinoCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.pecorinoCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 43, Name = "Custard", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "custard.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.custard.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 44, Name = "Muenster", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "muenster.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.muenster.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 45, Name = "Queso Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "quesoCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.quesoCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 46, Name = "Hard Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "hardCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.hardCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 47, Name = "Havarti Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "havartiCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.havartiCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 48, Name = "Asiago", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "asiago.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.asiago.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 49, Name = "Mascarpone", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "mascarpone.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.mascarpone.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 50, Name = "Neufchatel", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "neufchatel.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.neufchatel.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 51, Name = "Halloumi", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "halloumi.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.halloumi.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 52, Name = "Paneer", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "paneer.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.paneer.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 53, Name = "Brick Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "brickCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.brickCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 54, Name = "Camembert Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "camembertCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.camembertCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 55, Name = "Garlic Herb Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "garlicHerbCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.garlicHerbCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 56, Name = "Edam Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "edamCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.edamCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 57, Name = "Manchego", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "manchego.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.manchego.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 58, Name = "Fontina", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "fontina.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.fontina.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 59, Name = "Stilton Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "stiltonCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.stiltonCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 60, Name = "Emmental Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "emmentalCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.emmentalCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 61, Name = "Red Leicester Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "redLeicesterCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.redLeicesterCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 62, Name = "Jarlsberg Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "jarlsbergCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.jarlsbergCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 63, Name = "Bocconcini Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "bocconciniCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.bocconciniCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 64, Name = "Farmer Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "farmerCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.farmerCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 65, Name = "Creme De Cassis", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "cremeDeCassis.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.cremeDeCassis.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 66, Name = "Wensleydale Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "wensleydaleCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.wensleydaleCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 67, Name = "Longhorn Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "longhornCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.longhornCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 68, Name = "Double Gloucester", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "doubleGloucester.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.doubleGloucester.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 69, Name = "Raclette Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "racletteCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.racletteCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 70, Name = "Lancashire Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "lancashireCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.lancashireCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 71, Name = "Cheshire Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "cheshireCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.cheshireCheese.png", typeof(LibraryPage)),
+                Description = "" });
+            list.Add(new Ingredient() { IngredientID = 72, Name = "Goat Cheese", Category = Categories.Dairy, Where = Where.Refrigerator, Image = "goatCheese.png",
+                LibraryImage = ImageSource.FromResource("Quoridge.Images.Dairy.goatCheese.png", typeof(LibraryPage)),
+                Description = "" });
         }
     }
 }

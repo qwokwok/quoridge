@@ -12,7 +12,7 @@ namespace Quoridge
         {
             //Data.UniversalFood();
 
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTg4NTQ1QDMxMzcyZTM0MmUzMGhrd3JWRGFaNUQ1ZXFUMExZRTlBZmNGM0xCcXQ2NCsya09rd1psU1VZbnM9");
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MjA1MDA2QDMxMzcyZTM0MmUzMEc2Nk93c0JWZ1BJcU5Hb2NDRkh6MnVrMFEyZ21pdDV1RUtPRkYveXJTeTA9");
 
             InitializeComponent();
 

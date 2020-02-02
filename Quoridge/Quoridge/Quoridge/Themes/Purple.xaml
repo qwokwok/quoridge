@@ -3,7 +3,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                     x:Class="Quoridge.Purple">
 
-    <FileImageSource x:Key="Back" File="themes/purpleTheme.png"></FileImageSource>
+    <FileImageSource x:Key="Background" File="purpleTheme.png"></FileImageSource>
     <Color x:Key="NavigationBarColor">#9775AA</Color>
     <Color x:Key="NavigationTextColor">White</Color>
     <Color x:Key="ShellBackgroundColor">#9775AA</Color>
