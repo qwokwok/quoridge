@@ -11,12 +11,53 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="moreButton.png"></ToolbarItem>
     </ContentPage.ToolbarItems>
-    
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+
+    <ScrollView>
+        <Frame CornerRadius="25" BackgroundColor="White" Opacity=".75" Margin="15,15,15,30">
+            <StackLayout BackgroundColor="Transparent" HeightRequest="1000" Orientation="Vertical">
+                <Label Text="Theme" HorizontalTextAlignment="Center"/>
+                <Grid Margin="3"  HeightRequest="550">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <!--0-->
+                        <RowDefinition Height="*" />
+                        <!--1-->
+                        <RowDefinition Height="*" />
+                        <!--2-->
+                        <RowDefinition Height="*" />
+                        <!--3-->
+                        <RowDefinition Height="*" />
+                        <!--4-->
+                        <RowDefinition Height="*" />
+                        <!--5-->
+                        <RowDefinition Height="*" />
+                        <!--6-->
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <!--0-->
+                        <ColumnDefinition Width="*" />
+                        <!--1-->
+                        <ColumnDefinition Width="*" />
+                        <!--2-->
+                        <ColumnDefinition Width="*" />
+                        <!--3-->
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Row="0" Grid.Column="0" Padding="0" Margin="0" CornerRadius="50">
+                        <Button x:Name="PurpleButton" BackgroundColor="#9775AA" Clicked="PurpleButton_Clicked"></Button>
+                    </Frame>
+                    <Frame Grid.Row="0" Grid.Column="1" Padding="0" Margin="0" CornerRadius="50">
+                        <Button x:Name="LimeButton" BackgroundColor="#A7E9AF" Clicked="LimeButton_Clicked"></Button>
+                    </Frame>
+                    <Frame Grid.Row="0" Grid.Column="2" Padding="0" Margin="0" CornerRadius="50">
+                        <Button x:Name="PastelButton" BackgroundColor="#BE9FE1" Clicked="PastelButton_Clicked"></Button>
+                    </Frame>
+                    <Frame Grid.Row="0" Grid.Column="3" Padding="0" Margin="0" CornerRadius="50">
+                        <Button x:Name="SkyButton" BackgroundColor="#A1DAED" Clicked="SkyButton_Clicked"></Button>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+        </Frame>
+    </ScrollView>
 </ContentPage>

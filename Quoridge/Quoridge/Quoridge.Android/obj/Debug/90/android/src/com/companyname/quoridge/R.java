@@ -4597,10 +4597,9 @@ public final class R {
     public static final int popup_forms_android_shadow=0x7f070098;
     public static final int popup_forms_dark_theme_close_icon=0x7f070099;
     public static final int popup_forms_light_theme_close_icon=0x7f07009a;
-    public static final int purpletheme=0x7f07009b;
-    public static final int splash=0x7f07009c;
-    public static final int tooltip_frame_dark=0x7f07009d;
-    public static final int tooltip_frame_light=0x7f07009e;
+    public static final int splash=0x7f07009b;
+    public static final int tooltip_frame_dark=0x7f07009c;
+    public static final int tooltip_frame_light=0x7f07009d;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

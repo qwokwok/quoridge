@@ -11,12 +11,10 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="moreButton.png"></ToolbarItem>
     </ContentPage.ToolbarItems>
-    
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+
+    <StackLayout>
+        <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    </StackLayout>
 </ContentPage>

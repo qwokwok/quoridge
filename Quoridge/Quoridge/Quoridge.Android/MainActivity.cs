@@ -36,5 +36,6 @@ namespace Quoridge.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
     }
 }

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:local="clr-namespace:Quoridge"
+                    x:Class="Quoridge.Sky">
+
+    <Color x:Key="NavigationBarColor">#CEE7FF</Color>
+    <Color x:Key="NavigationTextColor">#3283B7</Color>
+    <Color x:Key="Fab">#A1DAED</Color>
+    <local:ImageFromPCL x:Key="Background">Quoridge.Images.Themes.Sky.skyTheme.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="Circle">Quoridge.Images.Themes.Sky.skyCircle.png</local:ImageFromPCL>
+
+</ResourceDictionary>

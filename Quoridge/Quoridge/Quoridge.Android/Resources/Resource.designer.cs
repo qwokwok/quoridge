@@ -5952,16 +5952,13 @@ namespace Quoridge.Droid
 			public const int popup_forms_light_theme_close_icon = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int purpleTheme = 2131165339;
+			public const int splash = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int splash = 2131165340;
+			public const int tooltip_frame_dark = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int tooltip_frame_dark = 2131165341;
-			
-			// aapt resource value: 0x7F07009E
-			public const int tooltip_frame_light = 2131165342;
+			public const int tooltip_frame_light = 2131165341;
 			
 			static Drawable()
 			{

@@ -43,8 +43,7 @@
                            ItemSize="110"
                            SelectionMode="Single" 
                            SelectionGesture="Tap" 
-                           ItemSpacing="10,1,10,1"
-                           FlowDirection="RightToLeft"            
+                           ItemSpacing="10,1,10,1"           
                            SelectionBackgroundColor="Transparent">
                     <syncfusion:SfListView.ItemTemplate>
                         <DataTemplate>

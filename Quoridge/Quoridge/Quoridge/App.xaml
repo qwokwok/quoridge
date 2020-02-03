@@ -7,7 +7,7 @@
              x:Class="Quoridge.App">
     <Application.Resources>
 
-        <ResourceDictionary Source="Themes/Purple.xaml"/>
+        <ResourceDictionary Source="Themes/Lime.xaml"/>
 
         <Style TargetType="NavigationPage">
             <Setter Property="BarBackgroundColor"

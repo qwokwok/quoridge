@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:local="clr-namespace:Quoridge"
+                    x:Class="Quoridge.Lime">
+
+    <Color x:Key="NavigationBarColor">#A7E9AF</Color>
+    <Color x:Key="NavigationTextColor">#339D74</Color>
+    <Color x:Key="Fab">#C0EFCB</Color>
+    <local:ImageFromPCL x:Key="Background">Quoridge.Images.Themes.Lime.limeTheme.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="Circle">Quoridge.Images.Themes.Lime.limeCircle.png</local:ImageFromPCL>
+
+</ResourceDictionary>

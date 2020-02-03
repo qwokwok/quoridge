@@ -5,23 +5,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:Quoridge"
              mc:Ignorable="d"
-             FlyoutBackgroundColor="{DynamicResource FlyoutBackgroundColor}"
+             FlyoutBackgroundColor="{DynamicResource NavigationBarColor}"
              BackgroundColor="{DynamicResource NavigationBarColor}"
              x:Class="Quoridge.AppShell">
 
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
-            <ContentView BackgroundColor="#764B8E" HeightRequest="150">
+            <ContentView BackgroundColor="{DynamicResource NavigationBarColor}" HeightRequest="149" Shell.NavBarHasShadow="true">
                 <ContentView.Padding>
                     <OnPlatform x:TypeArguments="Thickness">
                         <On Platform="iOS" Value="0,0,0,0" />
-                        <On Platform="Android, UWP" Value="0,23,0,0" />
+                        <On Platform="Android, UWP" Value="0,24,0,0" />
                     </OnPlatform>
                 </ContentView.Padding>
                 <AbsoluteLayout>
-                    <Image Source="{local:ImageFromPCL Quoridge.Images.kawaii.png}"></Image>
-                    <Image Source="{local:ImageFromPCL Quoridge.Images.circlePurple.png}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds=".5,.5,.87,.87"></Image>
-                    <Image Source="{local:ImageFromPCL Quoridge.Images.dog.png}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds=".5,.51,.8,.8"></Image>
+                    <Image Source="{local:ImageFromPCL Quoridge.Images.FlyoutHeader.kawaii.png}"></Image>
+                    <Image Source="{DynamicResource Circle}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds=".5,.5,.87,.87"></Image>
+                    <Image Source="{local:ImageFromPCL Quoridge.Images.Personal.dog.png}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds=".5,.51,.8,.8"></Image>
                 </AbsoluteLayout>
             </ContentView>
         </DataTemplate>
@@ -39,34 +39,34 @@
                        VerticalOptions="Center"/>
                 <Label Text="{Binding Title}"
                        Margin="15,0,0,0"
-                       TextColor="White"
+                       TextColor="{DynamicResource NavigationTextColor}"
+                       FontAttributes="Bold"
                        VerticalOptions="Center"/>
             </StackLayout>
         </DataTemplate>
     </Shell.ItemTemplate>
 
-    <FlyoutItem Title="Profile" 
-                Icon="{local:ImageFromPCL Quoridge.Images.profileIcon.png}">
+    <FlyoutItem Title="Profile" Icon="{local:ImageFromPCL Quoridge.Images.Icons.profileIcon.png}">
         <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}"/>
     </FlyoutItem>
     <FlyoutItem Title="My Storage" 
-                Icon="{local:ImageFromPCL Quoridge.Images.storageIcon.png}">
+                Icon="{local:ImageFromPCL Quoridge.Images.Icons.storageIcon.png}">
         <ShellContent ContentTemplate="{DataTemplate local:StoragePage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Shopping"
-                Icon="{local:ImageFromPCL Quoridge.Images.shoppingIcon.png}">
+                Icon="{local:ImageFromPCL Quoridge.Images.Icons.shoppingIcon.png}">
         <ShellContent ContentTemplate="{DataTemplate local:ShoppingPage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Ingredients" 
-                Icon="{local:ImageFromPCL Quoridge.Images.ingredientIcon.png}">
+                Icon="{local:ImageFromPCL Quoridge.Images.Icons.ingredientIcon.png}">
         <ShellContent ContentTemplate="{DataTemplate local:LibraryPage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Recipes"
-                Icon="{local:ImageFromPCL Quoridge.Images.recipeIcon.png}">
+                Icon="{local:ImageFromPCL Quoridge.Images.Icons.recipeIcon.png}">
         <ShellContent ContentTemplate="{DataTemplate local:RecipePage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Settings"
-                Icon="{local:ImageFromPCL Quoridge.Images.settingIcon.png}">
+                Icon="{local:ImageFromPCL Quoridge.Images.Icons.settingIcon.png}">
         <ShellContent ContentTemplate="{DataTemplate local:SettingPage}"/>
     </FlyoutItem>
 </Shell>

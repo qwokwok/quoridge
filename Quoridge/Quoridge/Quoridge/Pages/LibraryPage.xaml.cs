@@ -20,7 +20,7 @@ namespace Quoridge
         public LibraryPage()
         {
             InitializeComponent();
-
+            
             templateView = new DataTemplate(() =>
             {
                 image = new Image();
@@ -83,6 +83,7 @@ namespace Quoridge
         async void OnPreviousPageButtonClicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
+            ingredientListView.ResetSwipe(true);
         }
 
         private async void RightTap_Tapped(object sender, EventArgs e)
@@ -112,6 +113,7 @@ namespace Quoridge
             ingredientListView.ResetSwipe(true);
         }
 
+        
         private void LeftTap_Tapped(object sender, EventArgs e)
         {
             CustomizingPopUpLayout("Quoridge.Images.shoppingPopup.png", 300, 300, AnimationMode.SlideOnLeft);
@@ -132,6 +134,12 @@ namespace Quoridge
             popupLayout.PopupView.AnimationMode = animation;
             popupLayout.PopupView.ContentTemplate = templateView;
             popupLayout.Show();
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            ingredientListView.ResetSwipe(true);
         }
     }
 }

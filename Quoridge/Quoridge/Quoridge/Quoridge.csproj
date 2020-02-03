@@ -16,10 +16,6 @@
     <None Remove="Images\addButton.png" />
     <None Remove="Images\addRightSwipe.png" />
     <None Remove="Images\addShoppingLeftSwipe.png" />
-    <None Remove="Images\circle.png" />
-    <None Remove="Images\circleProfile.png" />
-    <None Remove="Images\circlePurple.png" />
-    <None Remove="Images\cyan.png" />
     <None Remove="Images\Dairy\americanCheese.png" />
     <None Remove="Images\Dairy\asiago.png" />
     <None Remove="Images\Dairy\blueCheese.png" />
@@ -97,12 +93,19 @@
     <None Remove="Images\moreButton.png" />
     <None Remove="Images\popup.png" />
     <None Remove="Images\profileIcon.png" />
+    <None Remove="Images\purpleCircle.png" />
     <None Remove="Images\purpleTheme.png" />
     <None Remove="Images\recipeIcon.png" />
     <None Remove="Images\settingIcon.png" />
     <None Remove="Images\shoppingIcon.png" />
     <None Remove="Images\shoppingPopup.png" />
     <None Remove="Images\storageIcon.png" />
+    <None Remove="Images\Themes\Lime\limeCircle.png" />
+    <None Remove="Images\Themes\Lime\limeTheme.png" />
+    <None Remove="Images\Themes\Pastel\pastelCircle.png" />
+    <None Remove="Images\Themes\Pastel\pastelTheme.png" />
+    <None Remove="Images\Themes\Sky\skyCircle.png" />
+    <None Remove="Images\Themes\Sky\skyTheme.png" />
     <None Remove="Images\whiteEgg.png" />
   </ItemGroup>
 
@@ -111,13 +114,20 @@
     <EmbeddedResource Include="Images\addButton.png" />
     <EmbeddedResource Include="Images\addRightSwipe.png" />
     <EmbeddedResource Include="Images\addShoppingLeftSwipe.png" />
-    <EmbeddedResource Include="Images\circle.png" />
-    <EmbeddedResource Include="Images\circleProfile.png" />
-    <EmbeddedResource Include="Images\circlePurple.png" />
-    <EmbeddedResource Include="Images\cyan.png" />
-    <EmbeddedResource Include="Images\kawaii.png" />
+    <EmbeddedResource Include="Images\Icons\ingredientIcon.png" />
+    <EmbeddedResource Include="Images\Icons\profileIcon.png" />
+    <EmbeddedResource Include="Images\Icons\recipeIcon.png" />
+    <EmbeddedResource Include="Images\Icons\settingIcon.png" />
+    <EmbeddedResource Include="Images\Icons\shoppingIcon.png" />
+    <EmbeddedResource Include="Images\Icons\storageIcon.png" />
+    <EmbeddedResource Include="Images\Themes\Lime\limeCircle.png" />
+    <EmbeddedResource Include="Images\Themes\Lime\limeTheme.png" />
+    <EmbeddedResource Include="Images\Themes\Pastel\pastelCircle.png" />
+    <EmbeddedResource Include="Images\Themes\Pastel\pastelTheme.png" />
+    <EmbeddedResource Include="Images\Themes\Purple\purpleCircle.png" />
+    <EmbeddedResource Include="Images\FlyoutHeader\kawaii.png" />
     <EmbeddedResource Include="Images\moreButton.png" />
-    <EmbeddedResource Include="Images\purpleTheme.png" />
+    <EmbeddedResource Include="Images\Themes\Purple\purpleTheme.png" />
     <EmbeddedResource Include="Images\Dairy\americanCheese.png" />
     <EmbeddedResource Include="Images\Dairy\asiago.png" />
     <EmbeddedResource Include="Images\Dairy\blueCheese.png" />
@@ -190,14 +200,10 @@
     <EmbeddedResource Include="Images\Dairy\whiteEgg.png" />
     <EmbeddedResource Include="Images\Dairy\yogurt.png" />
     <EmbeddedResource Include="Images\Fish\NotDone.png" />
-    <EmbeddedResource Include="Images\ingredientIcon.png" />
     <EmbeddedResource Include="Images\popup.png" />
-    <EmbeddedResource Include="Images\profileIcon.png" />
-    <EmbeddedResource Include="Images\recipeIcon.png" />
-    <EmbeddedResource Include="Images\settingIcon.png" />
-    <EmbeddedResource Include="Images\shoppingIcon.png" />
     <EmbeddedResource Include="Images\shoppingPopup.png" />
-    <EmbeddedResource Include="Images\storageIcon.png" />
+    <EmbeddedResource Include="Images\Themes\Sky\skyCircle.png" />
+    <EmbeddedResource Include="Images\Themes\Sky\skyTheme.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -211,6 +217,15 @@
 
   <ItemGroup>
     <EmbeddedResource Update="Apps\AppShell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Themes\Sky.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Themes\Pastel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Themes\Lime.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Pages\LibraryPage.xaml">
@@ -237,10 +252,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Images\Themes\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Images\dog.png" />
+    <EmbeddedResource Include="Images\Personal\dog.png" />
   </ItemGroup>
 </Project>
