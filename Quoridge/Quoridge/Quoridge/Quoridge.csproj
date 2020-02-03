@@ -16,8 +16,10 @@
     <None Remove="Images\addButton.png" />
     <None Remove="Images\addRightSwipe.png" />
     <None Remove="Images\addShoppingLeftSwipe.png" />
+    <None Remove="Images\circle.png" />
     <None Remove="Images\circleProfile.png" />
     <None Remove="Images\circlePurple.png" />
+    <None Remove="Images\cyan.png" />
     <None Remove="Images\Dairy\americanCheese.png" />
     <None Remove="Images\Dairy\asiago.png" />
     <None Remove="Images\Dairy\blueCheese.png" />
@@ -88,6 +90,7 @@
     <None Remove="Images\Dairy\wensleydaleCheese.png" />
     <None Remove="Images\Dairy\whippedCream.png" />
     <None Remove="Images\Dairy\yogurt.png" />
+    <None Remove="Images\dog.png" />
     <None Remove="Images\Fish\NotDone.png" />
     <None Remove="Images\ingredientIcon.png" />
     <None Remove="Images\kawaii.png" />
@@ -108,8 +111,10 @@
     <EmbeddedResource Include="Images\addButton.png" />
     <EmbeddedResource Include="Images\addRightSwipe.png" />
     <EmbeddedResource Include="Images\addShoppingLeftSwipe.png" />
+    <EmbeddedResource Include="Images\circle.png" />
     <EmbeddedResource Include="Images\circleProfile.png" />
     <EmbeddedResource Include="Images\circlePurple.png" />
+    <EmbeddedResource Include="Images\cyan.png" />
     <EmbeddedResource Include="Images\kawaii.png" />
     <EmbeddedResource Include="Images\moreButton.png" />
     <EmbeddedResource Include="Images\purpleTheme.png" />
@@ -233,5 +238,9 @@
 
   <ItemGroup>
     <Folder Include="Images\Themes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\dog.png" />
   </ItemGroup>
 </Project>

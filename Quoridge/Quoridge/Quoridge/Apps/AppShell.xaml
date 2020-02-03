@@ -11,8 +11,18 @@
 
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
-            <ContentView BackgroundColor="#764B8E" HeightRequest="150" Padding="0,23,0,0">
-                <Image Source="{local:ImageFromPCL Quoridge.Images.kawaii.png}"></Image>
+            <ContentView BackgroundColor="#764B8E" HeightRequest="150">
+                <ContentView.Padding>
+                    <OnPlatform x:TypeArguments="Thickness">
+                        <On Platform="iOS" Value="0,0,0,0" />
+                        <On Platform="Android, UWP" Value="0,23,0,0" />
+                    </OnPlatform>
+                </ContentView.Padding>
+                <AbsoluteLayout>
+                    <Image Source="{local:ImageFromPCL Quoridge.Images.kawaii.png}"></Image>
+                    <Image Source="{local:ImageFromPCL Quoridge.Images.circlePurple.png}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds=".5,.5,.87,.87"></Image>
+                    <Image Source="{local:ImageFromPCL Quoridge.Images.dog.png}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds=".5,.51,.8,.8"></Image>
+                </AbsoluteLayout>
             </ContentView>
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>

@@ -1094,7 +1094,6 @@ C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\login.png
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\layout\splash.xml
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\layout\login.xml
-C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\res\drawable\circleprofile.png
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\uploadflags.txt
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\resolvedassemblies.hash
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge.Android\obj\Debug\90\android\assets\FormsViewGroup.dll

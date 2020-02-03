@@ -124,7 +124,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\circleProfile.png" />
+    <None Include="Resources\drawable\circleProfile.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\purpleTheme.png" />
