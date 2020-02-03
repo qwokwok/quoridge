@@ -12,98 +12,27 @@
 
   <ItemGroup>
     <None Remove="Food.json" />
-    <None Remove="Images\add.png" />
     <None Remove="Images\addButton.png" />
     <None Remove="Images\addRightSwipe.png" />
     <None Remove="Images\addShoppingLeftSwipe.png" />
-    <None Remove="Images\Dairy\americanCheese.png" />
-    <None Remove="Images\Dairy\asiago.png" />
-    <None Remove="Images\Dairy\blueCheese.png" />
-    <None Remove="Images\Dairy\bocconciniCheese.png" />
-    <None Remove="Images\Dairy\brickCheese.png" />
-    <None Remove="Images\Dairy\brie.png" />
-    <None Remove="Images\Dairy\brownEgg.png" />
-    <None Remove="Images\Dairy\butter.png" />
-    <None Remove="Images\Dairy\buttermilk.png" />
-    <None Remove="Images\Dairy\camembertCheese.png" />
-    <None Remove="Images\Dairy\cheddar.png" />
-    <None Remove="Images\Dairy\cheeseSoup.png" />
-    <None Remove="Images\Dairy\cheshireCheese.png" />
-    <None Remove="Images\Dairy\colbyCheese.png" />
-    <None Remove="Images\Dairy\condensedMilk.png" />
-    <None Remove="Images\Dairy\cottageCheese.png" />
-    <None Remove="Images\Dairy\creamCheese.png" />
-    <None Remove="Images\Dairy\cremeDeCassis.png" />
-    <None Remove="Images\Dairy\cremeFraiche.png" />
-    <None Remove="Images\Dairy\custard.png" />
-    <None Remove="Images\Dairy\doubleGloucester.png" />
-    <None Remove="Images\Dairy\edamCheese.png" />
-    <None Remove="Images\Dairy\emmentalCheese.png" />
-    <None Remove="Images\Dairy\evaporatedMilk.png" />
-    <None Remove="Images\Dairy\farmerCheese.png" />
-    <None Remove="Images\Dairy\feta.png" />
-    <None Remove="Images\Dairy\fontina.png" />
-    <None Remove="Images\Dairy\frosting.png" />
-    <None Remove="Images\Dairy\garlicHerbCheese.png" />
-    <None Remove="Images\Dairy\ghee.png" />
-    <None Remove="Images\Dairy\goatCheese.png" />
-    <None Remove="Images\Dairy\goatMilk.png" />
-    <None Remove="Images\Dairy\gouda.png" />
-    <None Remove="Images\Dairy\gruyere.png" />
-    <None Remove="Images\Dairy\halfAndHalf.png" />
-    <None Remove="Images\Dairy\halloumi.png" />
-    <None Remove="Images\Dairy\hardCheese.png" />
-    <None Remove="Images\Dairy\havartiCheese.png" />
-    <None Remove="Images\Dairy\iceCream.png" />
-    <None Remove="Images\Dairy\italianCheese.png" />
-    <None Remove="Images\Dairy\jarlsbergCheese.png" />
-    <None Remove="Images\Dairy\lancashireCheese.png" />
-    <None Remove="Images\Dairy\longhornCheese.png" />
-    <None Remove="Images\Dairy\manchego.png" />
-    <None Remove="Images\Dairy\mascarpone.png" />
-    <None Remove="Images\Dairy\milk.png" />
-    <None Remove="Images\Dairy\montereyJackCheese.png" />
-    <None Remove="Images\Dairy\mozzarella.png" />
-    <None Remove="Images\Dairy\muenster.png" />
-    <None Remove="Images\Dairy\neufchatel.png" />
-    <None Remove="Images\Dairy\paneer.png" />
-    <None Remove="Images\Dairy\parmesan.png" />
-    <None Remove="Images\Dairy\pecorinoCheese.png" />
-    <None Remove="Images\Dairy\pepperJackCheese.png" />
-    <None Remove="Images\Dairy\pizzaCheese.png" />
-    <None Remove="Images\Dairy\powderedMilk.png" />
-    <None Remove="Images\Dairy\provolone.png" />
-    <None Remove="Images\Dairy\quesoCheese.png" />
-    <None Remove="Images\Dairy\racletteCheese.png" />
-    <None Remove="Images\Dairy\redLeicesterCheese.png" />
-    <None Remove="Images\Dairy\ricotta.png" />
-    <None Remove="Images\Dairy\romano.png" />
-    <None Remove="Images\Dairy\softCheese.png" />
-    <None Remove="Images\Dairy\sourCream.png" />
-    <None Remove="Images\Dairy\stiltonCheese.png" />
-    <None Remove="Images\Dairy\swissCheese.png" />
-    <None Remove="Images\Dairy\velveeta.png" />
-    <None Remove="Images\Dairy\wensleydaleCheese.png" />
-    <None Remove="Images\Dairy\whippedCream.png" />
-    <None Remove="Images\Dairy\yogurt.png" />
-    <None Remove="Images\dog.png" />
     <None Remove="Images\Fish\NotDone.png" />
-    <None Remove="Images\ingredientIcon.png" />
-    <None Remove="Images\kawaii.png" />
+    <None Remove="Images\FlyoutHeader\kawaii.png" />
+    <None Remove="Images\Icons\ingredientIcon.png" />
+    <None Remove="Images\Icons\profileIcon.png" />
+    <None Remove="Images\Icons\recipeIcon.png" />
+    <None Remove="Images\Icons\settingIcon.png" />
+    <None Remove="Images\Icons\shoppingIcon.png" />
+    <None Remove="Images\Icons\storageIcon.png" />
     <None Remove="Images\moreButton.png" />
+    <None Remove="Images\Personal\dog.png" />
     <None Remove="Images\popup.png" />
-    <None Remove="Images\profileIcon.png" />
-    <None Remove="Images\purpleCircle.png" />
-    <None Remove="Images\purpleTheme.png" />
-    <None Remove="Images\recipeIcon.png" />
-    <None Remove="Images\settingIcon.png" />
-    <None Remove="Images\shoppingIcon.png" />
     <None Remove="Images\shoppingPopup.png" />
-    <None Remove="Images\storageIcon.png" />
     <None Remove="Images\Themes\Lime\limeCircle.png" />
     <None Remove="Images\Themes\Lime\limeTheme.png" />
     <None Remove="Images\Themes\Pastel\pastelCircle.png" />
     <None Remove="Images\Themes\Pastel\pastelTheme.png" />
+    <None Remove="Images\Themes\Purple\purpleCircle.png" />
+    <None Remove="Images\Themes\Purple\purpleTheme.png" />
     <None Remove="Images\Themes\Sky\skyCircle.png" />
     <None Remove="Images\Themes\Sky\skyTheme.png" />
     <None Remove="Images\whiteEgg.png" />
@@ -114,20 +43,6 @@
     <EmbeddedResource Include="Images\addButton.png" />
     <EmbeddedResource Include="Images\addRightSwipe.png" />
     <EmbeddedResource Include="Images\addShoppingLeftSwipe.png" />
-    <EmbeddedResource Include="Images\Icons\ingredientIcon.png" />
-    <EmbeddedResource Include="Images\Icons\profileIcon.png" />
-    <EmbeddedResource Include="Images\Icons\recipeIcon.png" />
-    <EmbeddedResource Include="Images\Icons\settingIcon.png" />
-    <EmbeddedResource Include="Images\Icons\shoppingIcon.png" />
-    <EmbeddedResource Include="Images\Icons\storageIcon.png" />
-    <EmbeddedResource Include="Images\Themes\Lime\limeCircle.png" />
-    <EmbeddedResource Include="Images\Themes\Lime\limeTheme.png" />
-    <EmbeddedResource Include="Images\Themes\Pastel\pastelCircle.png" />
-    <EmbeddedResource Include="Images\Themes\Pastel\pastelTheme.png" />
-    <EmbeddedResource Include="Images\Themes\Purple\purpleCircle.png" />
-    <EmbeddedResource Include="Images\FlyoutHeader\kawaii.png" />
-    <EmbeddedResource Include="Images\moreButton.png" />
-    <EmbeddedResource Include="Images\Themes\Purple\purpleTheme.png" />
     <EmbeddedResource Include="Images\Dairy\americanCheese.png" />
     <EmbeddedResource Include="Images\Dairy\asiago.png" />
     <EmbeddedResource Include="Images\Dairy\blueCheese.png" />
@@ -200,8 +115,23 @@
     <EmbeddedResource Include="Images\Dairy\whiteEgg.png" />
     <EmbeddedResource Include="Images\Dairy\yogurt.png" />
     <EmbeddedResource Include="Images\Fish\NotDone.png" />
+    <EmbeddedResource Include="Images\FlyoutHeader\kawaii.png" />
+    <EmbeddedResource Include="Images\Icons\ingredientIcon.png" />
+    <EmbeddedResource Include="Images\Icons\profileIcon.png" />
+    <EmbeddedResource Include="Images\Icons\recipeIcon.png" />
+    <EmbeddedResource Include="Images\Icons\settingIcon.png" />
+    <EmbeddedResource Include="Images\Icons\shoppingIcon.png" />
+    <EmbeddedResource Include="Images\Icons\storageIcon.png" />
+    <EmbeddedResource Include="Images\moreButton.png" />
+    <EmbeddedResource Include="Images\Personal\dog.png" />
     <EmbeddedResource Include="Images\popup.png" />
     <EmbeddedResource Include="Images\shoppingPopup.png" />
+    <EmbeddedResource Include="Images\Themes\Lime\limeCircle.png" />
+    <EmbeddedResource Include="Images\Themes\Lime\limeTheme.png" />
+    <EmbeddedResource Include="Images\Themes\Pastel\pastelCircle.png" />
+    <EmbeddedResource Include="Images\Themes\Pastel\pastelTheme.png" />
+    <EmbeddedResource Include="Images\Themes\Purple\purpleCircle.png" />
+    <EmbeddedResource Include="Images\Themes\Purple\purpleTheme.png" />
     <EmbeddedResource Include="Images\Themes\Sky\skyCircle.png" />
     <EmbeddedResource Include="Images\Themes\Sky\skyTheme.png" />
   </ItemGroup>
@@ -220,9 +150,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Themes\Sky.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Themes\Pastel.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Themes\Lime.xaml">
@@ -246,12 +173,11 @@
     <EmbeddedResource Update="Pages\ShoppingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Themes\Pastel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Themes\Purple.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Images\Personal\dog.png" />
   </ItemGroup>
 </Project>
