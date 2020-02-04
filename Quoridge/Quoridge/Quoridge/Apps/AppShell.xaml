@@ -19,7 +19,7 @@
                     </OnPlatform>
                 </ContentView.Padding>
                 <AbsoluteLayout>
-                    <Image Source="{local:ImageFromPCL Quoridge.Images.FlyoutHeader.beach.png}"/>
+                    <Image Source="{local:ImageFromPCL Quoridge.Images.FlyoutHeader.kawaii.png}"/>
                     <Image Source="{DynamicResource FlyCircle}" 
                            AbsoluteLayout.LayoutFlags="All" 
                            AbsoluteLayout.LayoutBounds=".5,.5,.87,.87"></Image>
@@ -74,4 +74,6 @@
                 Icon="{local:ImageFromPCL Quoridge.Images.Icons.settingIcon.png}">
         <ShellContent ContentTemplate="{DataTemplate local:SettingPage}"/>
     </FlyoutItem>
+
+    <ShellContent Title="Profile" Icon="{local:ImageFromPCL Quoridge.Images.Icons.profileIcon.png}" ContentTemplate="{DataTemplate local:ProfilePage}"/>
 </Shell>

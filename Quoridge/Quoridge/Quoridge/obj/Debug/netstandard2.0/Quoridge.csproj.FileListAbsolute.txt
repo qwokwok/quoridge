@@ -102,3 +102,4 @@ C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debu
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\ref\Quoridge.dll
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.pdb
 C:\Users\Quoc\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Quoridge.csprojAssemblyReference.cache
+C:\Users\peace\Desktop\GitHub Folder\quoridge\Quoridge\Quoridge\Quoridge\obj\Debug\netstandard2.0\Themes\Dol.xaml.g.cs

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,5 +24,13 @@ namespace Quoridge
         {
             return true;
         }
+
+        protected async override void OnNavigating(Xamarin.Forms.ShellNavigatingEventArgs args)
+        {
+            if (Device.RuntimePlatform == Device.Android)
+                await Task.Delay(200);
+        }
+
+
     }
 }

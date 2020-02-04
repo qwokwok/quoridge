@@ -3,8 +3,8 @@
 	.section	.rodata..L.str.1,"aMS",@progbits,1
 	.type	.L.str.1, @object
 .L.str.1:
-	.asciz	"com.companyname.quoridge2"
-	.size	.L.str.1, 26
+	.asciz	"com.companyname.quoridge"
+	.size	.L.str.1, 25
 	.section	.data.application_config,"aw",@progbits
 	.type	application_config, @object
 	.p2align	3
@@ -63,7 +63,7 @@ mono_aot_mode_name:
 	.section	.rodata..L.str.8,"aMS",@progbits,1
 	.type	.L.str.8, @object
 .L.str.8:
-	.asciz	"d84f2fb6-7a3a-4ca4-b924-78ad93533686"
+	.asciz	"dc48bc71-9583-4ddd-a1cd-4b5ca94ecded"
 	.size	.L.str.8, 37
 	.section	.rodata..L.str.9,"aMS",@progbits,1
 	.type	.L.str.9, @object

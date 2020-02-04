@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Quoridge.Droid
 {
-    [Activity(Label = "SplashActivity", MainLauncher = false, Theme = "@style/MyTheme")]
+    [Activity(Label = "SplashActivity", MainLauncher = true, Theme = "@style/MyTheme")]
     public class SplashActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
