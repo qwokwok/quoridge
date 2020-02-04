@@ -10,7 +10,7 @@
              x:Class="Quoridge.AppShell">
 
     <Shell.FlyoutHeaderTemplate>
-        <DataTemplate>
+        <DataTemplate x:Name="hiu">
             <ContentView BackgroundColor="{DynamicResource NavigationBarColor}" HeightRequest="149" Shell.NavBarHasShadow="true">
                 <ContentView.Padding>
                     <OnPlatform x:TypeArguments="Thickness">
@@ -19,9 +19,14 @@
                     </OnPlatform>
                 </ContentView.Padding>
                 <AbsoluteLayout>
-                    <Image Source="{local:ImageFromPCL Quoridge.Images.FlyoutHeader.kawaii.png}"></Image>
-                    <Image Source="{DynamicResource Circle}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds=".5,.5,.87,.87"></Image>
-                    <Image Source="{local:ImageFromPCL Quoridge.Images.Personal.dog.png}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds=".5,.51,.8,.8"></Image>
+                    <Image Source="{local:ImageFromPCL Quoridge.Images.FlyoutHeader.beach.png}"/>
+                    <Image Source="{DynamicResource FlyCircle}" 
+                           AbsoluteLayout.LayoutFlags="All" 
+                           AbsoluteLayout.LayoutBounds=".5,.5,.87,.87"></Image>
+                    <Image x:Name="ImageCircle" Source="{local:ImageFromPCL Quoridge.Images.Personal.dog.png}" 
+                           AbsoluteLayout.LayoutFlags="All" 
+                           AbsoluteLayout.LayoutBounds=".5,.51,.8,.8">
+                    </Image>
                 </AbsoluteLayout>
             </ContentView>
         </DataTemplate>

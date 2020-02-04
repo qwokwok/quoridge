@@ -12,16 +12,14 @@
         <ToolbarItem IconImageSource="moreButton.png"></ToolbarItem>
     </ContentPage.ToolbarItems>
 
-    <ScrollView>
-        <AbsoluteLayout Padding="0" BackgroundColor="Accent">
-            <Image Source="{DynamicResource Circle}" AbsoluteLayout.LayoutBounds="0.5,-0.1,0.55,0.55"  AbsoluteLayout.LayoutFlags="All"/>
-            <Image Source="{local:ImageFromPCL Quoridge.Images.Personal.dog.png}" AbsoluteLayout.LayoutBounds="0.498,-0.046,0.505,0.505"  AbsoluteLayout.LayoutFlags="All"/>
-            <StackLayout AbsoluteLayout.LayoutBounds="0, 0.8, 1, 0.5" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Azure">
-                <Label Text="Quoc Nhan" HorizontalTextAlignment="Center" TextColor="White" FontAttributes="Bold"/>
-                <Frame CornerRadius="5" Margin="15,25,15,0" BackgroundColor="Black" Opacity="0.5" HeightRequest="250">
+    <AbsoluteLayout Padding="0">
+        <Image Source="{DynamicResource Circle}" AbsoluteLayout.LayoutBounds="0.5,-0.1,0.55,0.55"  AbsoluteLayout.LayoutFlags="All"/>
+        <Image Source="{local:ImageFromPCL Quoridge.Images.Personal.dog.png}" AbsoluteLayout.LayoutBounds="0.498,-0.046,0.505,0.505"  AbsoluteLayout.LayoutFlags="All"/>
+        <StackLayout AbsoluteLayout.LayoutBounds="0, 0.8, 1, 0.5" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Azure">
+            <Label Text="Quoc Nhan" HorizontalTextAlignment="Center" TextColor="White" FontAttributes="Bold"/>
+            <Frame CornerRadius="5" BackgroundColor="Black" Opacity="0.5" HeightRequest="250">
 
-                </Frame>
-            </StackLayout>
-        </AbsoluteLayout>
-    </ScrollView>
+            </Frame>
+        </StackLayout>
+    </AbsoluteLayout>
 </ContentPage>

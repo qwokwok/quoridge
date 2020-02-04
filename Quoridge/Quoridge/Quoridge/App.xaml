@@ -14,6 +14,7 @@
                     Value="{DynamicResource NavigationBarColor}" />
             <Setter Property="BarTextColor"
                     Value="{DynamicResource NavigationTextColor}" />
+            
         </Style>
     </Application.Resources>
 </Application>

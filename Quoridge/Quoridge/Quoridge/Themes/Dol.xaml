@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:local="clr-namespace:Quoridge"
+                    x:Class="Quoridge.Dol">
+
+    <Color x:Key="NavigationBarColor">#3D3F40</Color>
+    <Color x:Key="NavigationTextColor">#FFFFFF</Color>
+    <Color x:Key="Fab">#3D3F40</Color>
+    <local:ImageFromPCL x:Key="Background">Quoridge.Images.Themes.Dol.dolTheme.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="Circle">Quoridge.Images.Themes.Dol.dolCircle.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="FlyCircle">Quoridge.Images.Themes.Dol.dolFlyCircle.png</local:ImageFromPCL>
+
+</ResourceDictionary>

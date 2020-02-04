@@ -10,11 +10,13 @@ namespace Quoridge
     {
         public static ObservableCollection<Ingredient> storage = new ObservableCollection<Ingredient>();
         public static StoragePage storagePage;
+        public static ImageSource picture;
         public AppShell()
         {
             InitializeComponent();
 
             storagePage = new StoragePage();
+            
         }
 
         protected override bool OnBackButtonPressed()

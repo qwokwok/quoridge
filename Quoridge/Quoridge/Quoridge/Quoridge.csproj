@@ -16,6 +16,8 @@
     <None Remove="Images\addRightSwipe.png" />
     <None Remove="Images\addShoppingLeftSwipe.png" />
     <None Remove="Images\Fish\NotDone.png" />
+    <None Remove="Images\FlyoutHeader\beach.png" />
+    <None Remove="Images\FlyoutHeader\dessert.png" />
     <None Remove="Images\FlyoutHeader\kawaii.png" />
     <None Remove="Images\Icons\ingredientIcon.png" />
     <None Remove="Images\Icons\profileIcon.png" />
@@ -27,6 +29,9 @@
     <None Remove="Images\Personal\dog.png" />
     <None Remove="Images\popup.png" />
     <None Remove="Images\shoppingPopup.png" />
+    <None Remove="Images\Themes\Dol\dolCircle.png" />
+    <None Remove="Images\Themes\Dol\dolFlyCircle.png" />
+    <None Remove="Images\Themes\Dol\dolTheme.png" />
     <None Remove="Images\Themes\Lime\limeCircle.png" />
     <None Remove="Images\Themes\Lime\limeTheme.png" />
     <None Remove="Images\Themes\Pastel\pastelCircle.png" />
@@ -115,6 +120,8 @@
     <EmbeddedResource Include="Images\Dairy\whiteEgg.png" />
     <EmbeddedResource Include="Images\Dairy\yogurt.png" />
     <EmbeddedResource Include="Images\Fish\NotDone.png" />
+    <EmbeddedResource Include="Images\FlyoutHeader\beach.png" />
+    <EmbeddedResource Include="Images\FlyoutHeader\dessert.png" />
     <EmbeddedResource Include="Images\FlyoutHeader\kawaii.png" />
     <EmbeddedResource Include="Images\Icons\ingredientIcon.png" />
     <EmbeddedResource Include="Images\Icons\profileIcon.png" />
@@ -126,6 +133,9 @@
     <EmbeddedResource Include="Images\Personal\dog.png" />
     <EmbeddedResource Include="Images\popup.png" />
     <EmbeddedResource Include="Images\shoppingPopup.png" />
+    <EmbeddedResource Include="Images\Themes\Dol\dolCircle.png" />
+    <EmbeddedResource Include="Images\Themes\Dol\dolFlyCircle.png" />
+    <EmbeddedResource Include="Images\Themes\Dol\dolTheme.png" />
     <EmbeddedResource Include="Images\Themes\Lime\limeCircle.png" />
     <EmbeddedResource Include="Images\Themes\Lime\limeTheme.png" />
     <EmbeddedResource Include="Images\Themes\Pastel\pastelCircle.png" />
@@ -147,6 +157,9 @@
 
   <ItemGroup>
     <EmbeddedResource Update="Apps\AppShell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Themes\Dol.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Themes\Sky.xaml">

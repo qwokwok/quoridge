@@ -17,6 +17,8 @@ namespace Quoridge
         {
             InitializeComponent();
 
+            flyoutList.ItemsSource = FlyoutData.flyoutList;
+
             mergedDictionaries = Application.Current.Resources.MergedDictionaries;
         }
 
@@ -40,14 +42,30 @@ namespace Quoridge
             mergedDictionaries.Add(new Sky());
         }
 
+        private void DolButton_Clicked(object sender, EventArgs e)
+        {
+            mergedDictionaries.Add(new Dol());
+        }
+
+
+
+
+
         private void DarkButton_Clicked(object sender, EventArgs e)
         {
-
         }
 
         private void LightButton_Clicked(object sender, EventArgs e)
         {
+        }
 
+        private void FlyoutList_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
+        {
+            IsEnabled = false;
+            Flyout item = (Flyout)e.ItemData;
+            AppShell.picture = item.Picture;
+
+            IsEnabled = true;
         }
     }
 }

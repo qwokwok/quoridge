@@ -9,5 +9,6 @@
     <Color x:Key="Fab">#C0EFCB</Color>
     <local:ImageFromPCL x:Key="Background">Quoridge.Images.Themes.Lime.limeTheme.png</local:ImageFromPCL>
     <local:ImageFromPCL x:Key="Circle">Quoridge.Images.Themes.Lime.limeCircle.png</local:ImageFromPCL>
-
+    <local:ImageFromPCL x:Key="FlyCircle">Quoridge.Images.Themes.Lime.limeCircle.png</local:ImageFromPCL>
+    
 </ResourceDictionary>

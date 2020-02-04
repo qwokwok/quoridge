@@ -9,5 +9,6 @@
     <Color x:Key="Fab">#764B8E</Color>
     <local:ImageFromPCL x:Key="Background">Quoridge.Images.Themes.Purple.purpleTheme.png</local:ImageFromPCL>
     <local:ImageFromPCL x:Key="Circle">Quoridge.Images.Themes.Purple.purpleCircle.png</local:ImageFromPCL>
-
+    <local:ImageFromPCL x:Key="FlyCircle">Quoridge.Images.Themes.Purple.purpleCircle.png</local:ImageFromPCL>
+    
 </ResourceDictionary>
