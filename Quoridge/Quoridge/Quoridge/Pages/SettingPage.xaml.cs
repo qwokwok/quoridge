@@ -39,5 +39,15 @@ namespace Quoridge
         {
             mergedDictionaries.Add(new Sky());
         }
+
+        private void DarkButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LightButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

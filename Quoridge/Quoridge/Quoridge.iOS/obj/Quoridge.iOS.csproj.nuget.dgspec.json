@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj": {}
+    "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj": {
+    "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
         "projectName": "Quoridge.iOS",
-        "projectPath": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
+        "projectPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\Quoridge.iOS.csproj",
         "packagesPath": "C:\\Users\\peace\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge.iOS\\obj\\",
+        "outputPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
-                "projectPath": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj"
+              "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
+                "projectPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
+    "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
+        "projectUniqueName": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
         "projectName": "Quoridge",
-        "projectPath": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
+        "projectPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj",
         "packagesPath": "C:\\Users\\peace\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge\\obj\\",
+        "outputPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

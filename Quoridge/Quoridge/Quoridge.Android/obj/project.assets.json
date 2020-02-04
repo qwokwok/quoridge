@@ -2224,11 +2224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge.Android\\Quoridge.Android.csproj",
+      "projectUniqueName": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.Android\\Quoridge.Android.csproj",
       "projectName": "Quoridge.Android",
-      "projectPath": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge.Android\\Quoridge.Android.csproj",
+      "projectPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.Android\\Quoridge.Android.csproj",
       "packagesPath": "C:\\Users\\peace\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge.Android\\obj\\",
+      "outputPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2249,8 +2249,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
-              "projectPath": "C:\\Users\\peace\\Desktop\\quoridge - Copy\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj"
+            "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj": {
+              "projectPath": "C:\\Users\\peace\\Desktop\\GitHub Folder\\quoridge\\Quoridge\\Quoridge\\Quoridge\\Quoridge.csproj"
             }
           }
         }
