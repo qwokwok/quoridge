@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:local="clr-namespace:Quoridge"
+                    x:Class="Quoridge.Default">
+
+    <Color x:Key="NavigationBarColor">#9775AA</Color>
+    <Color x:Key="NavigationTextColor">White</Color>
+    <Color x:Key="Fab">#764B8E</Color>
+    <local:ImageFromPCL x:Key="Background">Quoridge.Images.purpleTheme.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="Circle">Quoridge.Images.purpleCircle.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="FlyCircle">Quoridge.Images.purpleCircle.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="Header">Quoridge.Images.FlyoutHeader.kawaii.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="Personal">Quoridge.Images.Personal.dog.png</local:ImageFromPCL>
+
+</ResourceDictionary>

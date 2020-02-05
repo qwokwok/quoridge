@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -12,7 +13,7 @@ using Android.Widget;
 
 namespace Quoridge.Droid
 {
-    [Activity(Label = "LoginActivity", Theme = "@style/LoginTheme")]
+    [Activity(Label = "LoginActivity", Theme = "@style/LoginTheme", ScreenOrientation = ScreenOrientation.Portrait)]
     public class LoginActivity : Activity
     {
         public Button testButton;

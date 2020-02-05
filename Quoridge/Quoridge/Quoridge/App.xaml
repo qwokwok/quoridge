@@ -7,14 +7,25 @@
              x:Class="Quoridge.App">
     <Application.Resources>
 
-        <ResourceDictionary x:Name="theme" Source="Themes/Purple.xaml"/>
+        <ResourceDictionary x:Name="theme" Source="Themes/Default.xaml"/>
 
         <Style TargetType="NavigationPage">
             <Setter Property="BarBackgroundColor"
                     Value="{DynamicResource NavigationBarColor}" />
             <Setter Property="BarTextColor"
                     Value="{DynamicResource NavigationTextColor}" />
-            
+            <Setter Property="BackgroundImageSource"
+                    Value="{DynamicResource Background}" />
+        </Style>
+        <Style TargetType="Image">
+            <Setter Property="Source"
+                    Value="{DynamicResource FlyCircle}" />
+            <Setter Property="Source"
+                    Value="{DynamicResource Circle}" />
+            <Setter Property="Source"
+                    Value="{DynamicResource Header}" />
+            <Setter Property="Source"
+                    Value="{DynamicResource Personal}" />
         </Style>
     </Application.Resources>
 </Application>

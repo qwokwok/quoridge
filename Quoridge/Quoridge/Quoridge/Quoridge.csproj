@@ -15,6 +15,7 @@
     <None Remove="Images\addButton.png" />
     <None Remove="Images\addRightSwipe.png" />
     <None Remove="Images\addShoppingLeftSwipe.png" />
+    <None Remove="Images\darkTheme.png" />
     <None Remove="Images\Fish\NotDone.png" />
     <None Remove="Images\FlyoutHeader\beach.png" />
     <None Remove="Images\FlyoutHeader\dessert.png" />
@@ -26,7 +27,20 @@
     <None Remove="Images\Icons\shoppingIcon.png" />
     <None Remove="Images\Icons\storageIcon.png" />
     <None Remove="Images\moreButton.png" />
+    <None Remove="Images\peachCircle.png" />
+    <None Remove="Images\peachFlyCircle.png" />
+    <None Remove="Images\peachTheme.png" />
+    <None Remove="Images\Personal\angelGirl.png" />
+    <None Remove="Images\Personal\braveGirl.png" />
     <None Remove="Images\Personal\dog.png" />
+    <None Remove="Images\Personal\dollGirl.png" />
+    <None Remove="Images\Personal\doomGirl.png" />
+    <None Remove="Images\Personal\green.png" />
+    <None Remove="Images\Personal\paintGirl.png" />
+    <None Remove="Images\Personal\quoc.png" />
+    <None Remove="Images\Personal\scientist.png" />
+    <None Remove="Images\Personal\vampireGirl.png" />
+    <None Remove="Images\Personal\witchGirl.png" />
     <None Remove="Images\popup.png" />
     <None Remove="Images\shoppingPopup.png" />
     <None Remove="Images\Themes\Dol\dolCircle.png" />
@@ -119,6 +133,7 @@
     <EmbeddedResource Include="Images\Dairy\whippedCream.png" />
     <EmbeddedResource Include="Images\Dairy\whiteEgg.png" />
     <EmbeddedResource Include="Images\Dairy\yogurt.png" />
+    <EmbeddedResource Include="Images\darkTheme.png" />
     <EmbeddedResource Include="Images\Fish\NotDone.png" />
     <EmbeddedResource Include="Images\FlyoutHeader\beach.png" />
     <EmbeddedResource Include="Images\FlyoutHeader\dessert.png" />
@@ -130,20 +145,33 @@
     <EmbeddedResource Include="Images\Icons\shoppingIcon.png" />
     <EmbeddedResource Include="Images\Icons\storageIcon.png" />
     <EmbeddedResource Include="Images\moreButton.png" />
+    <EmbeddedResource Include="Images\peachCircle.png" />
+    <EmbeddedResource Include="Images\peachFlyCircle.png" />
+    <EmbeddedResource Include="Images\peachTheme.png" />
+    <EmbeddedResource Include="Images\Personal\angelGirl.png" />
+    <EmbeddedResource Include="Images\Personal\braveGirl.png" />
     <EmbeddedResource Include="Images\Personal\dog.png" />
+    <EmbeddedResource Include="Images\Personal\dollGirl.png" />
+    <EmbeddedResource Include="Images\Personal\doomGirl.png" />
+    <EmbeddedResource Include="Images\Personal\green.png" />
+    <EmbeddedResource Include="Images\Personal\paintGirl.png" />
+    <EmbeddedResource Include="Images\Personal\quoc.png" />
+    <EmbeddedResource Include="Images\Personal\scientist.png" />
+    <EmbeddedResource Include="Images\Personal\vampireGirl.png" />
+    <EmbeddedResource Include="Images\Personal\witchGirl.png" />
     <EmbeddedResource Include="Images\popup.png" />
     <EmbeddedResource Include="Images\shoppingPopup.png" />
-    <EmbeddedResource Include="Images\Themes\Dol\dolCircle.png" />
-    <EmbeddedResource Include="Images\Themes\Dol\dolFlyCircle.png" />
-    <EmbeddedResource Include="Images\Themes\Dol\dolTheme.png" />
-    <EmbeddedResource Include="Images\Themes\Lime\limeCircle.png" />
-    <EmbeddedResource Include="Images\Themes\Lime\limeTheme.png" />
-    <EmbeddedResource Include="Images\Themes\Pastel\pastelCircle.png" />
-    <EmbeddedResource Include="Images\Themes\Pastel\pastelTheme.png" />
-    <EmbeddedResource Include="Images\Themes\Purple\purpleCircle.png" />
-    <EmbeddedResource Include="Images\Themes\Purple\purpleTheme.png" />
-    <EmbeddedResource Include="Images\Themes\Sky\skyCircle.png" />
-    <EmbeddedResource Include="Images\Themes\Sky\skyTheme.png" />
+    <EmbeddedResource Include="Images\dolCircle.png" />
+    <EmbeddedResource Include="Images\dolFlyCircle.png" />
+    <EmbeddedResource Include="Images\dolTheme.png" />
+    <EmbeddedResource Include="Images\limeCircle.png" />
+    <EmbeddedResource Include="Images\limeTheme.png" />
+    <EmbeddedResource Include="Images\pastelCircle.png" />
+    <EmbeddedResource Include="Images\pastelTheme.png" />
+    <EmbeddedResource Include="Images\purpleCircle.png" />
+    <EmbeddedResource Include="Images\purpleTheme.png" />
+    <EmbeddedResource Include="Images\skyCircle.png" />
+    <EmbeddedResource Include="Images\skyTheme.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -157,6 +185,15 @@
 
   <ItemGroup>
     <EmbeddedResource Update="Apps\AppShell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Dark.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Themes\Peach.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Themes\Default.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Themes\Dol.xaml">
@@ -192,5 +229,13 @@
     <EmbeddedResource Update="Themes\Purple.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\Themes\Dol\" />
+    <Folder Include="Images\Themes\Lime\" />
+    <Folder Include="Images\Themes\Pastel\" />
+    <Folder Include="Images\Themes\Purple\" />
+    <Folder Include="Images\Themes\Sky\" />
   </ItemGroup>
 </Project>

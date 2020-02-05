@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading;
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -12,7 +13,7 @@ using Android.Widget;
 
 namespace Quoridge.Droid
 {
-    [Activity(Label = "SplashActivity", MainLauncher = true, Theme = "@style/MyTheme")]
+    [Activity(Label = "SplashActivity", MainLauncher = true, Theme = "@style/MyTheme", ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

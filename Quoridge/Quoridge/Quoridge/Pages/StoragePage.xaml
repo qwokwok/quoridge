@@ -14,7 +14,7 @@
         <ToolbarItem IconImageSource="moreButton.png"></ToolbarItem>
     </ContentPage.ToolbarItems>
 
-    <AbsoluteLayout x:Name="theme">
+    <AbsoluteLayout>
         <StackLayout>
             <SearchBar 
                 Placeholder="Ingredients"

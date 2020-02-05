@@ -7,8 +7,8 @@
     <Color x:Key="NavigationBarColor">#3D3F40</Color>
     <Color x:Key="NavigationTextColor">#FFFFFF</Color>
     <Color x:Key="Fab">#3D3F40</Color>
-    <local:ImageFromPCL x:Key="Background">Quoridge.Images.Themes.Dol.dolTheme.png</local:ImageFromPCL>
-    <local:ImageFromPCL x:Key="Circle">Quoridge.Images.Themes.Dol.dolCircle.png</local:ImageFromPCL>
-    <local:ImageFromPCL x:Key="FlyCircle">Quoridge.Images.Themes.Dol.dolFlyCircle.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="Background">Quoridge.Images.dolTheme.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="Circle">Quoridge.Images.dolCircle.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="FlyCircle">Quoridge.Images.dolFlyCircle.png</local:ImageFromPCL>
 
 </ResourceDictionary>

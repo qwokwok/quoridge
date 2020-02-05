@@ -69,7 +69,7 @@
                     BackgroundColor="Transparent"
                     HeightRequest="50"
                     WidthRequest="50"
-                    Source="{local:ImageFromPCL Quoridge.Images.addShoppingLeftSwipe.png}" >
+                    Source="addShoppingLeftSwipe.png" >
                                         </Image>
                                         <Grid.GestureRecognizers>
                                             <TapGestureRecognizer Tapped="LeftTap_Tapped"/>
@@ -90,7 +90,7 @@
                     BackgroundColor="Transparent"
                     HeightRequest="60"
                     WidthRequest="60"
-                    Source="{local:ImageFromPCL Quoridge.Images.addRightSwipe.png}" >
+                    Source="addRightSwipe.png" >
 
                                         </Image>
                                         <Grid.GestureRecognizers>

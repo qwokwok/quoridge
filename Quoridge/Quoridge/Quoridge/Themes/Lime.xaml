@@ -7,8 +7,8 @@
     <Color x:Key="NavigationBarColor">#A7E9AF</Color>
     <Color x:Key="NavigationTextColor">#339D74</Color>
     <Color x:Key="Fab">#C0EFCB</Color>
-    <local:ImageFromPCL x:Key="Background">Quoridge.Images.Themes.Lime.limeTheme.png</local:ImageFromPCL>
-    <local:ImageFromPCL x:Key="Circle">Quoridge.Images.Themes.Lime.limeCircle.png</local:ImageFromPCL>
-    <local:ImageFromPCL x:Key="FlyCircle">Quoridge.Images.Themes.Lime.limeCircle.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="Background">Quoridge.Images.limeTheme.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="Circle">Quoridge.Images.limeCircle.png</local:ImageFromPCL>
+    <local:ImageFromPCL x:Key="FlyCircle">Quoridge.Images.limeCircle.png</local:ImageFromPCL>
     
 </ResourceDictionary>

@@ -11,13 +11,12 @@ namespace Quoridge
     {
         public static ObservableCollection<Ingredient> storage = new ObservableCollection<Ingredient>();
         public static StoragePage storagePage;
-        public static ImageSource picture;
+        public static ResourceDictionary p = new Purple();
         public AppShell()
         {
             InitializeComponent();
 
-            storagePage = new StoragePage();
-            
+            storagePage = new StoragePage();         
         }
 
         protected override bool OnBackButtonPressed()
@@ -25,12 +24,10 @@ namespace Quoridge
             return true;
         }
 
-        protected async override void OnNavigating(Xamarin.Forms.ShellNavigatingEventArgs args)
-        {
-            if (Device.RuntimePlatform == Device.Android)
-                await Task.Delay(200);
-        }
-
-
+        //protected async override void OnNavigating(Xamarin.Forms.ShellNavigatingEventArgs args)
+        //{
+        //    if (Device.RuntimePlatform == Device.Android)
+        //        await Task.Delay(200);
+        //}
     }
 }

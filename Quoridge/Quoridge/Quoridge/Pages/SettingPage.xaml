@@ -16,8 +16,8 @@
 
     <ScrollView>
         <StackLayout >
-            <Frame CornerRadius="25" BackgroundColor="White" Opacity=".75" Margin="15,15,15,30" x:Name="theme">
-                <StackLayout BackgroundColor="Transparent" HeightRequest="1100" Orientation="Vertical">
+            <Frame CornerRadius="25" BackgroundColor="White" Opacity="1" Margin="15,15,15,30" x:Name="theme">
+                <StackLayout BackgroundColor="Transparent" Orientation="Vertical">
                     <StackLayout.Resources>
                         <ResourceDictionary>
                             <Style TargetType="Frame">
@@ -27,9 +27,14 @@
                                 <Setter Property="CornerRadius" Value="50"/>
                                 <Setter Property="Padding" Value="0"/>
                             </Style>
-
+                            
+                            <Style TargetType="Button">
+                                <Setter Property="BackgroundColor" Value="Transparent"/>
+                            </Style>
+                            
                             <Style TargetType="Label">
                                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                                <Setter Property="Margin" Value="0,15,0,0"/>
                             </Style>
 
                             <Style TargetType="Grid">
@@ -39,7 +44,7 @@
 
                         </ResourceDictionary>
                     </StackLayout.Resources>
-                    <Label Text="Theme"/>
+                    <Label Text="Theme" Margin="0"/>
                     <Grid HeightRequest="150">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*"/>
@@ -59,23 +64,25 @@
                             <!--3-->
                         </Grid.ColumnDefinitions>
                         <Frame Grid.Column="0">
-                            <Button x:Name="PurpleButton" BackgroundColor="#9775AA" Clicked="PurpleButton_Clicked"></Button>
+                            <Button x:Name="PurpleButton" BackgroundColor="#9775AA" Clicked="PurpleButton_Clicked"/>
                         </Frame>
                         <Frame Grid.Column="1">
-                            <Button x:Name="LimeButton" BackgroundColor="#A7E9AF" Clicked="LimeButton_Clicked"></Button>
+                            <Button x:Name="LimeButton" BackgroundColor="#A7E9AF" Clicked="LimeButton_Clicked"/>
                         </Frame>
                         <Frame Grid.Column="2">
-                            <Button x:Name="PastelButton" BackgroundColor="#BE9FE1" Clicked="PastelButton_Clicked"></Button>
+                            <Button x:Name="PastelButton" BackgroundColor="#BE9FE1" Clicked="PastelButton_Clicked"/>
                         </Frame>
                         <Frame Grid.Column="3">
-                            <Button x:Name="SkyButton" BackgroundColor="#A1DAED" Clicked="SkyButton_Clicked"></Button>
+                            <Button x:Name="SkyButton" BackgroundColor="#A1DAED" Clicked="SkyButton_Clicked"/>
                         </Frame>
                         <Frame Grid.Row="1" Grid.Column="0" Padding="0" Margin="0">
-                            <Button x:Name="DolButton" ImageSource="{local:ImageFromPCL Quoridge.Images.Themes.Dol.dolFlyCircle.png}" Clicked="DolButton_Clicked"></Button>
+                            <Button x:Name="DolButton" ImageSource="dolFlyCircle.png" Clicked="DolButton_Clicked"/>
+                        </Frame>
+                        <Frame Grid.Row="1" Grid.Column="1" Padding="0" Margin="0">
+                            <Button x:Name="PeachButton" ImageSource="{local:ImageFromPCL Quoridge.Images.peachFlyCircle.png}" Clicked="PeachButton_Clicked"/>
                         </Frame>
                     </Grid>
                     <Label Text="Night Mode"/>
-                    <Image x:Name="huhuhu"></Image>
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*"/>
@@ -93,10 +100,10 @@
                             <!--3-->
                         </Grid.ColumnDefinitions>
                         <Frame Grid.Column="1">
-                            <Button x:Name="DarkButton" BackgroundColor="#444444" Clicked="DarkButton_Clicked"></Button>
+                            <Button BackgroundColor="#444444" Clicked="DarkButton_Clicked"/>
                         </Frame>
                         <Frame Grid.Column="2">
-                            <Button x:Name="LightButton" BackgroundColor="#F9F9F9" Clicked="LightButton_Clicked"></Button>
+                            <Button BackgroundColor="#F9F9F9" Clicked="LightButton_Clicked"/>
                         </Frame>
                     </Grid>
                     <Label Text="Flyout Picture"/>
@@ -120,6 +127,54 @@
                             </DataTemplate>
                         </syncfusion:SfListView.ItemTemplate>
                     </syncfusion:SfListView>
+                    <Label Text="Personal"/>
+                    <Grid HeightRequest="235">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <!--0-->
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <!--0-->
+                            <ColumnDefinition Width="*"/>
+                            <!--1-->
+                            <ColumnDefinition Width="*"/>
+                            <!--2-->
+                            <ColumnDefinition Width="*"/>
+                            <!--3-->
+                        </Grid.ColumnDefinitions>
+                        <Frame Grid.Column="0">
+                            <Button x:Name="selectDoll" ImageSource="smallDollGirl.png" Clicked="Doll_Clicked"/>
+                        </Frame>
+                        <Frame Grid.Column="1">
+                            <Button x:Name="selectPrincess" ImageSource="smallGreen.png" Clicked="Princess_Clicked"/>
+                        </Frame>
+                        <Frame Grid.Column="2">
+                            <Button x:Name="selectScientist" ImageSource="smallScientist.png" Clicked="Scientist_Clicked"/>
+                        </Frame>
+                        <Frame Grid.Column="3">
+                            <Button x:Name="selectBrave" ImageSource="smallBraveGirl.png" Clicked="Brave_Clicked"/>
+                        </Frame>
+                        <Frame Grid.Row="1" Grid.Column="0">
+                            <Button x:Name="selectVampire" ImageSource="smallVampireGirl.png" Clicked="Vampire_Clicked"/>
+                        </Frame>
+                        <Frame Grid.Row="1" Grid.Column="1">
+                            <Button x:Name="selectPaint" ImageSource="smallPaintGirl.png" Clicked="Paint_Clicked"/>
+                        </Frame>
+                        <Frame Grid.Row="1" Grid.Column="2">
+                            <Button x:Name="selectAngel" ImageSource="smallAngelGirl.png" Clicked="Angel_Clicked"/>
+                        </Frame>
+                        <Frame Grid.Row="1" Grid.Column="3">
+                            <Button x:Name="selectDoom" ImageSource="smallDoomGirl.png" Clicked="Doom_Clicked"/>
+                        </Frame>
+                        <Frame Grid.Row="2" Grid.Column="0">
+                            <Button x:Name="selectDog" ImageSource="smallDog.png" Clicked="Dog_Clicked"/>
+                        </Frame>
+                        <Frame Grid.Row="2" Grid.Column="1">
+                            <Button x:Name="selectQuoc" ImageSource="smallQuoc.png" Clicked="Quoc_Clicked"/>
+                        </Frame>
+                    </Grid>
                 </StackLayout>
             </Frame>
         </StackLayout>

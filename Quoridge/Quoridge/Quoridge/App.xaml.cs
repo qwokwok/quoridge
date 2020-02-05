@@ -7,6 +7,8 @@ namespace Quoridge
 {
     public partial class App : Application
     {
+        public static Page Page { get; internal set; }
+
         //public static List<Ingredient> ingredients = new List<Ingredient>();
         public App()
         {
